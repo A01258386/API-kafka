@@ -1,0 +1,156 @@
+openapi: 3.0.0
+servers:
+  - url: "http://localhost:8080"
+info:
+  description: First API
+  version: "1.0.0"
+  title: Flve API
+  contact:
+    email: ggokmen@my.bcit.com
+  license:
+    name: Apache 2.0
+    url: "http://www.apache.org/licenses/LICENSE-2.0.html"
+tags:
+  - name: admins
+    description: Secured Admin-only calls
+  - name: developers
+    description: Operations available to regular developers
+paths:
+  /drive_stats:
+    get:
+      tags:
+        - devices
+      summary: gets driving data results
+      operationId: app.get_drive_stats
+      description: Get driving data from storage
+      parameters:
+        - name: timestamp
+          in: query
+          description: Limits the number of items on a page
+          schema:
+            type: string
+            format: date-time
+            example: "2022-10-2T14:22:22.001Z"
+      responses:
+        "200":
+          description: Successful return list of drive event data
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/driveEvent"
+        "400":
+          description: Invalid request from STORAGE
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+  /fly_stats:
+    get:
+      tags:
+        - devices
+      summary: gets flying data results
+      operationId: app.get_fly_stats
+      description: Get flyinging data from storage
+      parameters:
+        - name: timestamp
+          in: query
+          description: Limits the number of items on a page
+          schema:
+            type: string
+            format: date-time
+            example: "2022-10-2T14:22:22.001Z"
+      responses:
+        "200":
+          description: Successful return list of fly event data
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/flyEvent"
+        "400":
+          description: Invalid request from STORAGE
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+  /drive:
+    post:
+      tags:
+        - admins
+      summary: adds an inventory item
+      operationId: app.driveEvent
+      description: user runs
+      responses:
+        "201":
+          description: item created
+        "400":
+          description: "invalid input, object invalid"
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/driveEvent"
+        description: run item
+  /fly:
+    post:
+      tags:
+        - admins
+      summary: user walks
+      operationId: app.flyEvent
+      description: app.walk
+      responses:
+        "201":
+          description: item created
+        "400":
+          description: "invalid input, object invalid"
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/flyEvent"
+        description: user flies
+components:
+  schemas:
+    driveEvent:
+      type: object
+      required:
+        - speed
+        - timestamp
+        - lat
+        - long
+      properties:
+        speed:
+          type: integer
+        timestamp:
+          type: string
+          format: date-time
+          example: "2016-08-29T09:12:33.001Z"
+        lat:
+          type: number
+        long:
+          type: number
+    flyEvent:
+      required:
+        - altitute
+        - air_pressure
+        - city
+        - weight
+      properties:
+        altitute:
+          type: integer
+        air_pressure:
+          type: integer
+          format: url
+        city:
+          type: string
+        weight:
+          type: integer

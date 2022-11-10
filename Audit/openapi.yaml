@@ -1,0 +1,114 @@
+openapi: 3.0.0
+servers:
+  - url: "http://localhost:8080"
+info:
+  description: First API
+  version: "1.0.0"
+  title: Flve API
+  contact:
+    email: ggokmen@my.bcit.com
+  license:
+    name: Apache 2.0
+    url: "http://www.apache.org/licenses/LICENSE-2.0.html"
+tags:
+  - name: admins
+    description: Secured Admin-only calls
+  - name: developers
+    description: Operations available to regular developers
+paths:
+  /audit-drive:
+    get:
+      summary: audit driveitems
+      operationId: app.getAuditDrive
+      description: audit drive entry from event store
+      parameters:
+        - name: index
+          in: query
+          description: get the drive index
+          schema:
+            type: integer
+            example: 1
+      responses:
+        200:
+          description: "content return from get request"
+          content:
+            application/json:
+              schema:
+                type: object
+                items:
+                  $ref: "#/components/schemas/driveEvent"
+        400:
+          description: "invalid request"
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+  /audit-fly:
+    get:
+      summary: audit fly inventory items
+      operationId: app.getAuditFly
+      description: audit fly entry from event store
+      parameters:
+        - name: index
+          in: query
+          description: get the fly index
+          schema:
+            type: integer
+            example: 1
+      responses:
+        200:
+          description: "content return from get request"
+          content:
+            application/json:
+              schema:
+                type: object
+                items:
+                  $ref: "#/components/schemas/flyEvent"
+        400:
+          description: "invalid request"
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+components:
+  schemas:
+    driveEvent:
+      type: object
+      required:
+        - speed
+        - timestamp
+        - lat
+        - long
+      properties:
+        speed:
+          type: integer
+        timestamp:
+          type: string
+          format: date-time
+          example: "2016-08-29T09:12:33.001Z"
+        lat:
+          type: number
+        long:
+          type: number
+    flyEvent:
+      required:
+        - altitute
+        - air_pressure
+        - city
+        - weight
+      properties:
+        altitute:
+          type: integer
+        air_pressure:
+          type: integer
+          format: url
+        city:
+          type: string
+        weight:
+          type: integer

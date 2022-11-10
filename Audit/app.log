@@ -1,0 +1,57 @@
+2022-11-10 13:22:06,412 - basicLogger - INFO - Storage Service connected to MySQL on hostname:kafka.westus3.cloudapp.azure.com and port:3306
+2022-11-10 13:22:06,428 - basicLogger - INFO - Storage Service connected to MySQL on hostname:kafka.westus3.cloudapp.azure.com and port:3306
+2022-11-10 13:22:06,758 - basicLogger - INFO - Storage Service connected to MySQL on hostname:kafka.westus3.cloudapp.azure.com and port:3306
+2022-11-10 13:22:06,772 - basicLogger - INFO - Storage Service connected to MySQL on hostname:kafka.westus3.cloudapp.azure.com and port:3306
+2022-11-10 13:23:14,494 - basicLogger - INFO - Retrieving BP at index 1
+2022-11-10 13:23:21,469 - basicLogger - INFO - Retrieving BP at index 100
+2022-11-10 13:23:22,518 - basicLogger - ERROR - No more messages found
+2022-11-10 13:23:22,518 - basicLogger - ERROR - Could not find BP at index 100
+2022-11-10 13:23:32,924 - basicLogger - INFO - Retrieving BP at index 5
+2022-11-10 13:23:39,716 - basicLogger - INFO - Retrieving BP at index 10
+2022-11-10 13:23:40,766 - basicLogger - ERROR - No more messages found
+2022-11-10 13:23:40,766 - basicLogger - ERROR - Could not find BP at index 10
+2022-11-10 13:23:44,875 - basicLogger - INFO - Retrieving BP at index 6
+2022-11-10 13:23:48,737 - basicLogger - INFO - Retrieving BP at index 8
+2022-11-10 13:23:53,371 - basicLogger - INFO - Retrieving BP at index 9
+2022-11-10 13:23:54,418 - basicLogger - ERROR - No more messages found
+2022-11-10 13:23:54,418 - basicLogger - ERROR - Could not find BP at index 9
+2022-11-10 13:24:00,171 - basicLogger - INFO - Retrieving BP at index 9
+2022-11-10 13:24:01,218 - basicLogger - ERROR - No more messages found
+2022-11-10 13:24:01,218 - basicLogger - ERROR - Could not find BP at index 9
+2022-11-10 13:24:29,184 - basicLogger - INFO - Retrieving BP at index 9
+2022-11-10 13:25:13,836 - basicLogger - INFO - Storage Service connected to MySQL on hostname:kafka.westus3.cloudapp.azure.com and port:3306
+2022-11-10 13:25:13,850 - basicLogger - INFO - Storage Service connected to MySQL on hostname:kafka.westus3.cloudapp.azure.com and port:3306
+2022-11-10 13:25:27,167 - basicLogger - INFO - Retrieving BP at index 1
+2022-11-10 13:25:32,366 - basicLogger - INFO - Retrieving BP at index 100
+2022-11-10 13:25:33,410 - basicLogger - ERROR - No more messages found
+2022-11-10 13:25:33,411 - basicLogger - ERROR - Could not find BP at index 100
+2022-11-10 14:14:06,066 - basicLogger - INFO - Retrieving BP at index 1
+2022-11-10 14:14:13,752 - basicLogger - INFO - Retrieving BP at index 2
+2022-11-10 14:14:21,668 - basicLogger - INFO - Retrieving BP at index 3
+2022-11-10 14:14:22,716 - basicLogger - ERROR - No more messages found
+2022-11-10 14:14:22,716 - basicLogger - ERROR - Could not find BP at index 3
+2022-11-10 14:14:38,402 - basicLogger - INFO - Retrieving BP at index 1
+2022-11-10 14:14:47,673 - basicLogger - INFO - Retrieving BP at index 2
+2022-11-10 14:14:54,643 - basicLogger - INFO - Retrieving BP at index 3
+2022-11-10 14:14:59,684 - basicLogger - INFO - Retrieving BP at index 300
+2022-11-10 14:15:00,732 - basicLogger - ERROR - No more messages found
+2022-11-10 14:15:00,732 - basicLogger - ERROR - Could not find BP at index 300
+2022-11-10 14:15:06,415 - basicLogger - INFO - Retrieving BP at index 3
+2022-11-10 14:16:12,740 - basicLogger - INFO - Retrieving BP at index 1
+2022-11-10 14:16:21,398 - basicLogger - INFO - Retrieving BP at index 2
+2022-11-10 14:16:31,975 - basicLogger - INFO - Retrieving BP at index 2
+2022-11-10 14:16:36,542 - basicLogger - INFO - Retrieving BP at index 200
+2022-11-10 14:16:37,590 - basicLogger - ERROR - No more messages found
+2022-11-10 14:16:37,601 - basicLogger - ERROR - Could not find BP at index 200
+2022-11-10 14:31:06,690 - basicLogger - INFO - Storage Service connected to MySQL on hostname:kafka.westus3.cloudapp.azure.com and port:3306
+2022-11-10 14:31:06,703 - basicLogger - INFO - Storage Service connected to MySQL on hostname:kafka.westus3.cloudapp.azure.com and port:3306
+2022-11-10 14:33:02,498 - basicLogger - INFO - Storage Service connected to MySQL on hostname:kafka.westus3.cloudapp.azure.com and port:3306
+2022-11-10 14:33:02,513 - basicLogger - INFO - Storage Service connected to MySQL on hostname:kafka.westus3.cloudapp.azure.com and port:3306
+2022-11-10 14:33:35,164 - basicLogger - INFO - Storage Service connected to MySQL on hostname:kafka.westus3.cloudapp.azure.com and port:3306
+2022-11-10 14:33:35,178 - basicLogger - INFO - Storage Service connected to MySQL on hostname:kafka.westus3.cloudapp.azure.com and port:3306
+2022-11-10 14:33:35,515 - basicLogger - INFO - Storage Service connected to MySQL on hostname:kafka.westus3.cloudapp.azure.com and port:3306
+2022-11-10 14:33:35,529 - basicLogger - INFO - Storage Service connected to MySQL on hostname:kafka.westus3.cloudapp.azure.com and port:3306
+2022-11-10 14:33:41,476 - basicLogger - INFO - Retrieving BP at index 200
+2022-11-10 14:33:42,518 - basicLogger - ERROR - No more messages found
+2022-11-10 14:33:42,518 - basicLogger - ERROR - Could not find BP at index 200
+2022-11-10 14:33:44,981 - basicLogger - INFO - Retrieving BP at index 2
