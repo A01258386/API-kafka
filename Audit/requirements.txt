@@ -3,3 +3,6 @@ swagger-ui-bundle
 requests
 pykafka
 flask-cors==3.0.10
+sqlalchemy
+mysql-connector-python
+pymysql
