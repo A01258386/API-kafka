@@ -1,6 +1,4 @@
-import imp
 import logging
-import uuid
 import connexion
 from connexion import NoContent
 import json
@@ -14,14 +12,9 @@ from base import Base
 from fly import Fly
 from drive import Drive
 import datetime
-import mysql.connector
-import pymysql
-import swagger_ui_bundle
 import connexion
 from connexion import NoContent
-import requests
 import yaml
-import uuid
 import logging.config
 
 with open('app_conf.yml', 'r') as f:
