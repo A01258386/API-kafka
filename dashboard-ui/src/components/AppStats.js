@@ -35,8 +35,7 @@ export default function AppStats() {
                 <table className={"StatsTable"}>
 					<tbody>
 						<tr>
-							<th>Fly Stats</th>
-							<th>Drive Stats</th>
+							<th>Fly and Drive Stats</th>
 						</tr>
 						<tr>
 							<td colspan="2">Average Speed: {stats['average_speed']}</td>

@@ -182,6 +182,8 @@ def init_scheduler():
                   seconds=app_config['scheduler']['period_sec'])
     sched.start()
 
+def health():
+    return {"status": "ok"}, 200
 
 app = connexion.FlaskApp(__name__, specification_dir='')
 app.add_api("openapi.yaml", strict_validation=True, validate_responses=True)

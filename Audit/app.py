@@ -153,7 +153,8 @@ def getAuditFly(index):
     logger.error("Could not find BP at index %d" % index)
     return { "message": "Not Found"}, 404
 
-
+def health():
+    return {"status": "ok"}, 200
 
 app = connexion.FlaskApp(__name__, specification_dir='')
 app.add_api("openapi.yaml", strict_validation=True, validate_responses=True)

@@ -76,6 +76,14 @@ paths:
                 properties:
                   message:
                     type: string
+  /health:
+    get:
+      summary: health check endpoint
+      operationId: app.health
+      description: always returns 200
+      responses:
+        200:
+          description: endpoint is healthy
 components:
   schemas:
     driveEvent:
