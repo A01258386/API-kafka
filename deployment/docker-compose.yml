@@ -86,9 +86,9 @@ services:
     restart: unless-stopped
     depends_on:
       - kafka
-  dashboard:
-    container_name: dashboard
-    build: ../Dashboard/
+  dashboard-ui:
+    container_name: dashboard-ui
+    build: ../dashboard-ui/
     image: dashboard:latest
     ports:
       - "3000:3000"
