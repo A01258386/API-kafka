@@ -82,3 +82,5 @@
 2022-11-09 22:55:12,670 - basicLogger - INFO - Returned event drive response with a trace id of 37cf0a11-e384-41c0-9114-755c93fd395a
 2022-11-09 22:58:55,775 - basicLogger - INFO - Received event drive request with a trace id of 194c6fbc-2cbf-4f46-b80b-6a8038d8a2c2
 2022-11-09 22:58:55,776 - basicLogger - INFO - Returned event drive response with a trace id of 194c6fbc-2cbf-4f46-b80b-6a8038d8a2c2
+2022-11-20 21:24:29,060 - basicLogger - INFO - Connected to kafka !!!
+2022-11-20 21:24:31,041 - basicLogger - INFO - Connected to kafka !!!

@@ -24,7 +24,14 @@ paths:
       operationId: app.get_drive_stats
       description: Get driving data from storage
       parameters:
-        - name: timestamp
+        - name: starttime
+          in: query
+          description: Limits the number of items on a page
+          schema:
+            type: string
+            format: date-time
+            example: "2022-10-2T14:22:22.001Z"
+        - name: endtime
           in: query
           description: Limits the number of items on a page
           schema:
@@ -57,7 +64,14 @@ paths:
       operationId: app.get_fly_stats
       description: Get flyinging data from storage
       parameters:
-        - name: timestamp
+        - name: starttime
+          in: query
+          description: Limits the number of items on a page
+          schema:
+            type: string
+            format: date-time
+            example: "2022-10-2T14:22:22.001Z"
+        - name: endtime
           in: query
           description: Limits the number of items on a page
           schema:

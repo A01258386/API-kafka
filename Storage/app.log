@@ -3296,3 +3296,113 @@
 2022-11-20 17:21:29,965 - basicLogger - INFO - Query for fly event readings after 2022-11-20 17:21:24 returns 0 results
 2022-11-20 17:21:34,800 - basicLogger - INFO - Query for drive event readings after 2022-11-20 17:21:29 returns 0 results
 2022-11-20 17:21:34,931 - basicLogger - INFO - Query for fly event readings after 2022-11-20 17:21:29 returns 0 results
+2022-11-20 20:28:50,971 - basicLogger - INFO - Storage Service connected to MySQL on hostname:kafka.westus3.cloudapp.azure.com and port:3306
+2022-11-20 20:28:51,057 - basicLogger - INFO - Storage Service connected to MySQL on hostname:kafka.westus3.cloudapp.azure.com and port:3306
+2022-11-20 20:28:52,932 - basicLogger - INFO - Storage Service connected to MySQL on hostname:kafka.westus3.cloudapp.azure.com and port:3306
+2022-11-20 20:28:52,998 - basicLogger - INFO - Storage Service connected to MySQL on hostname:kafka.westus3.cloudapp.azure.com and port:3306
+2022-11-20 20:30:09,682 - basicLogger - INFO - Storage Service connected to MySQL on hostname:kafka.westus3.cloudapp.azure.com and port:3306
+2022-11-20 20:30:09,914 - basicLogger - INFO - Storage Service connected to MySQL on hostname:kafka.westus3.cloudapp.azure.com and port:3306
+2022-11-20 20:30:12,109 - basicLogger - INFO - Storage Service connected to MySQL on hostname:kafka.westus3.cloudapp.azure.com and port:3306
+2022-11-20 20:30:12,181 - basicLogger - INFO - Storage Service connected to MySQL on hostname:kafka.westus3.cloudapp.azure.com and port:3306
+2022-11-20 20:33:43,848 - basicLogger - INFO - Storage Service connected to MySQL on hostname:kafka.westus3.cloudapp.azure.com and port:3306
+2022-11-20 20:33:43,955 - basicLogger - INFO - Storage Service connected to MySQL on hostname:kafka.westus3.cloudapp.azure.com and port:3306
+2022-11-20 20:33:46,543 - basicLogger - INFO - Storage Service connected to MySQL on hostname:kafka.westus3.cloudapp.azure.com and port:3306
+2022-11-20 20:33:46,661 - basicLogger - INFO - Storage Service connected to MySQL on hostname:kafka.westus3.cloudapp.azure.com and port:3306
+2022-11-20 20:43:48,404 - basicLogger - INFO - Storage Service connected to MySQL on hostname:kafka.westus3.cloudapp.azure.com and port:3306
+2022-11-20 20:43:48,463 - basicLogger - INFO - Storage Service connected to MySQL on hostname:kafka.westus3.cloudapp.azure.com and port:3306
+2022-11-20 20:43:51,661 - basicLogger - INFO - Storage Service connected to MySQL on hostname:kafka.westus3.cloudapp.azure.com and port:3306
+2022-11-20 20:43:51,729 - basicLogger - INFO - Storage Service connected to MySQL on hostname:kafka.westus3.cloudapp.azure.com and port:3306
+2022-11-20 20:44:20,651 - basicLogger - INFO - Storage Service connected to MySQL on hostname:kafka.westus3.cloudapp.azure.com and port:3306
+2022-11-20 20:44:20,728 - basicLogger - INFO - Storage Service connected to MySQL on hostname:kafka.westus3.cloudapp.azure.com and port:3306
+2022-11-20 20:45:03,987 - basicLogger - INFO - Storage Service connected to MySQL on hostname:kafka.westus3.cloudapp.azure.com and port:3306
+2022-11-20 20:45:04,070 - basicLogger - INFO - Storage Service connected to MySQL on hostname:kafka.westus3.cloudapp.azure.com and port:3306
+2022-11-20 20:45:58,521 - basicLogger - INFO - Storage Service connected to MySQL on hostname:kafka.westus3.cloudapp.azure.com and port:3306
+2022-11-20 20:45:58,588 - basicLogger - INFO - Storage Service connected to MySQL on hostname:kafka.westus3.cloudapp.azure.com and port:3306
+2022-11-20 20:46:05,985 - basicLogger - INFO - Storage Service connected to MySQL on hostname:kafka.westus3.cloudapp.azure.com and port:3306
+2022-11-20 20:46:06,048 - basicLogger - INFO - Storage Service connected to MySQL on hostname:kafka.westus3.cloudapp.azure.com and port:3306
+2022-11-20 20:50:55,613 - basicLogger - INFO - Storage Service connected to MySQL on hostname:kafka.westus3.cloudapp.azure.com and port:3306
+2022-11-20 20:50:55,693 - basicLogger - INFO - Storage Service connected to MySQL on hostname:kafka.westus3.cloudapp.azure.com and port:3306
+2022-11-20 20:50:58,272 - basicLogger - INFO - Storage Service connected to MySQL on hostname:kafka.westus3.cloudapp.azure.com and port:3306
+2022-11-20 20:50:58,370 - basicLogger - INFO - Storage Service connected to MySQL on hostname:kafka.westus3.cloudapp.azure.com and port:3306
+2022-11-20 20:51:19,422 - basicLogger - INFO - Storage Service connected to MySQL on hostname:kafka.westus3.cloudapp.azure.com and port:3306
+2022-11-20 20:51:19,501 - basicLogger - INFO - Storage Service connected to MySQL on hostname:kafka.westus3.cloudapp.azure.com and port:3306
+2022-11-20 20:51:22,489 - basicLogger - INFO - Storage Service connected to MySQL on hostname:kafka.westus3.cloudapp.azure.com and port:3306
+2022-11-20 20:51:22,606 - basicLogger - INFO - Storage Service connected to MySQL on hostname:kafka.westus3.cloudapp.azure.com and port:3306
+2022-11-20 20:52:41,514 - basicLogger - INFO - Storage Service connected to MySQL on hostname:kafka.westus3.cloudapp.azure.com and port:3306
+2022-11-20 20:52:41,647 - basicLogger - INFO - Storage Service connected to MySQL on hostname:kafka.westus3.cloudapp.azure.com and port:3306
+2022-11-20 20:53:16,236 - basicLogger - INFO - Storage Service connected to MySQL on hostname:kafka.westus3.cloudapp.azure.com and port:3306
+2022-11-20 20:53:16,308 - basicLogger - INFO - Storage Service connected to MySQL on hostname:kafka.westus3.cloudapp.azure.com and port:3306
+2022-11-20 20:53:20,514 - basicLogger - INFO - Query for drive event readings after 2022-10-02 14:22:22 and before 2022-10-03 14:22:22 returns 0 results
+2022-11-20 20:53:43,874 - basicLogger - INFO - Storage Service connected to MySQL on hostname:kafka.westus3.cloudapp.azure.com and port:3306
+2022-11-20 20:53:43,954 - basicLogger - INFO - Storage Service connected to MySQL on hostname:kafka.westus3.cloudapp.azure.com and port:3306
+2022-11-20 20:54:47,598 - basicLogger - INFO - Storage Service connected to MySQL on hostname:kafka.westus3.cloudapp.azure.com and port:3306
+2022-11-20 20:54:47,718 - basicLogger - INFO - Storage Service connected to MySQL on hostname:kafka.westus3.cloudapp.azure.com and port:3306
+2022-11-20 20:54:50,607 - basicLogger - INFO - Storage Service connected to MySQL on hostname:kafka.westus3.cloudapp.azure.com and port:3306
+2022-11-20 20:54:50,887 - basicLogger - INFO - Storage Service connected to MySQL on hostname:kafka.westus3.cloudapp.azure.com and port:3306
+2022-11-20 20:54:53,165 - basicLogger - INFO - Query for drive event readings after 2022-10-02 14:22:22 and before 2022-10-03 14:22:22 returns 0 results
+2022-11-20 20:54:59,502 - basicLogger - INFO - Query for fly event readings after 2022-10-02 14:22:22 and before 2022-10-03 14:22:22 returns 0 results
+2022-11-20 20:55:07,400 - basicLogger - INFO - Query for fly event readings after 2022-09-02 14:22:22 and before 2022-10-03 14:22:22 returns 0 results
+2022-11-20 20:55:14,965 - basicLogger - INFO - Query for drive event readings after 2022-09-02 14:22:22 and before 2022-10-03 14:22:22 returns 0 results
+2022-11-20 20:55:57,230 - basicLogger - INFO - Message: {'type': 'drive', 'datetime': '2022-11-21 04:55:57', 'payload': {'id': 24, 'speed': 455555550, 'timestamp': '100000000000', 'lat': 34, 'long': 1000, 'date_created': '2022-11-21 04:55:57', 'trace_id': '21191f23-0400-4ea7-8935-33371e831712'}}
+2022-11-20 20:55:57,231 - basicLogger - INFO - Message: {'type': 'drive', 'datetime': '2022-11-21 04:55:57', 'payload': {'id': 24, 'speed': 455555550, 'timestamp': '100000000000', 'lat': 34, 'long': 1000, 'date_created': '2022-11-21 04:55:57', 'trace_id': '21191f23-0400-4ea7-8935-33371e831712'}}
+2022-11-20 20:55:57,814 - basicLogger - INFO - drive database : trace_id: 21191f23-0400-4ea7-8935-33371e831712 write to database-> flve, table->drive
+2022-11-20 20:56:15,333 - basicLogger - INFO - Query for drive event readings after 2022-09-02 14:22:22 and before 2022-10-03 14:22:22 returns 0 results
+2022-11-20 20:56:23,923 - basicLogger - INFO - Query for drive event readings after 2022-09-02 14:22:22 and before 2022-11-21 14:22:22 returns 1 results
+2022-11-20 20:57:50,602 - basicLogger - INFO - Storage Service connected to MySQL on hostname:kafka.westus3.cloudapp.azure.com and port:3306
+2022-11-20 20:57:50,690 - basicLogger - INFO - Storage Service connected to MySQL on hostname:kafka.westus3.cloudapp.azure.com and port:3306
+2022-11-20 20:58:02,647 - basicLogger - INFO - Storage Service connected to MySQL on hostname:kafka.westus3.cloudapp.azure.com and port:3306
+2022-11-20 20:58:02,719 - basicLogger - INFO - Storage Service connected to MySQL on hostname:kafka.westus3.cloudapp.azure.com and port:3306
+2022-11-20 21:14:22,131 - basicLogger - INFO - Query for drive event readings after 2022-11-16 08:03:25 and before 2022-11-20 21:14:21 returns 0 results
+2022-11-20 21:14:22,264 - basicLogger - INFO - Query for fly event readings after 2022-11-16 08:03:25 and before 2022-11-20 21:14:21 returns 0 results
+2022-11-20 21:14:26,621 - basicLogger - INFO - Query for drive event readings after 2022-11-16 08:03:25 and before 2022-11-20 21:14:26 returns 0 results
+2022-11-20 21:14:26,753 - basicLogger - INFO - Query for fly event readings after 2022-11-16 08:03:25 and before 2022-11-20 21:14:26 returns 0 results
+2022-11-20 21:14:31,619 - basicLogger - INFO - Query for drive event readings after 2022-11-16 08:03:25 and before 2022-11-20 21:14:31 returns 0 results
+2022-11-20 21:14:31,747 - basicLogger - INFO - Query for fly event readings after 2022-11-16 08:03:25 and before 2022-11-20 21:14:31 returns 0 results
+2022-11-20 21:16:31,037 - basicLogger - INFO - Query for drive event readings after 2022-11-16 08:03:25 and before 2022-11-20 21:16:30 returns 0 results
+2022-11-20 21:16:31,166 - basicLogger - INFO - Query for fly event readings after 2022-11-16 08:03:25 and before 2022-11-20 21:16:30 returns 0 results
+2022-11-20 21:16:36,022 - basicLogger - INFO - Query for drive event readings after 2022-11-20 21:16:30 and before 2022-11-20 21:16:35 returns 0 results
+2022-11-20 21:16:36,150 - basicLogger - INFO - Query for fly event readings after 2022-11-20 21:16:30 and before 2022-11-20 21:16:35 returns 0 results
+2022-11-20 21:16:41,031 - basicLogger - INFO - Query for drive event readings after 2022-11-20 21:16:35 and before 2022-11-20 21:16:40 returns 0 results
+2022-11-20 21:16:41,157 - basicLogger - INFO - Query for fly event readings after 2022-11-20 21:16:35 and before 2022-11-20 21:16:40 returns 0 results
+2022-11-20 21:17:08,992 - basicLogger - INFO - Query for drive event readings after 2022-11-20 21:16:40 and before 2022-11-20 21:17:08 returns 0 results
+2022-11-20 21:17:09,121 - basicLogger - INFO - Query for fly event readings after 2022-11-20 21:16:40 and before 2022-11-20 21:17:08 returns 0 results
+2022-11-20 21:17:13,975 - basicLogger - INFO - Query for drive event readings after 2022-11-20 21:17:08 and before 2022-11-20 21:17:13 returns 0 results
+2022-11-20 21:17:14,104 - basicLogger - INFO - Query for fly event readings after 2022-11-20 21:17:08 and before 2022-11-20 21:17:13 returns 0 results
+2022-11-20 21:18:01,880 - basicLogger - INFO - Storage Service connected to MySQL on hostname:kafka.westus3.cloudapp.azure.com and port:3306
+2022-11-20 21:18:01,989 - basicLogger - INFO - Storage Service connected to MySQL on hostname:kafka.westus3.cloudapp.azure.com and port:3306
+2022-11-20 21:19:36,674 - basicLogger - INFO - Storage Service connected to MySQL on hostname:kafka.westus3.cloudapp.azure.com and port:3306
+2022-11-20 21:19:36,741 - basicLogger - INFO - Storage Service connected to MySQL on hostname:kafka.westus3.cloudapp.azure.com and port:3306
+2022-11-20 21:20:28,771 - basicLogger - INFO - Storage Service connected to MySQL on hostname:kafka.westus3.cloudapp.azure.com and port:3306
+2022-11-20 21:20:28,843 - basicLogger - INFO - Storage Service connected to MySQL on hostname:kafka.westus3.cloudapp.azure.com and port:3306
+2022-11-20 21:20:42,903 - basicLogger - ERROR - Error connecting to kafka Unable to connect to a broker to fetch metadata. See logs.
+2022-11-20 21:20:55,108 - basicLogger - ERROR - Error connecting to kafka Unable to connect to a broker to fetch metadata. See logs.
+2022-11-20 21:21:06,748 - basicLogger - ERROR - Error connecting to kafka Unable to connect to a broker to fetch metadata. See logs.
+2022-11-20 21:21:18,869 - basicLogger - ERROR - Error connecting to kafka Unable to connect to a broker to fetch metadata. See logs.
+2022-11-20 21:21:31,330 - basicLogger - ERROR - Error connecting to kafka Unable to connect to a broker to fetch metadata. See logs.
+2022-11-20 21:21:31,331 - basicLogger - ERROR - Failed to connect to kafka
+2022-11-20 21:22:16,902 - basicLogger - INFO - Storage Service connected to MySQL on hostname:kafka.westus3.cloudapp.azure.com and port:3306
+2022-11-20 21:22:16,973 - basicLogger - INFO - Storage Service connected to MySQL on hostname:kafka.westus3.cloudapp.azure.com and port:3306
+2022-11-20 21:22:17,439 - basicLogger - INFO - Connected to kafka !!!
+2022-11-20 21:22:19,332 - basicLogger - INFO - Storage Service connected to MySQL on hostname:kafka.westus3.cloudapp.azure.com and port:3306
+2022-11-20 21:22:19,434 - basicLogger - INFO - Storage Service connected to MySQL on hostname:kafka.westus3.cloudapp.azure.com and port:3306
+2022-11-20 21:22:19,898 - basicLogger - INFO - Connected to kafka !!!
+2022-11-20 21:24:02,050 - basicLogger - INFO - Query for drive event readings after 2022-11-20 21:17:13 and before 2022-11-20 21:24:01 returns 0 results
+2022-11-20 21:24:02,179 - basicLogger - INFO - Query for fly event readings after 2022-11-20 21:17:13 and before 2022-11-20 21:24:01 returns 0 results
+2022-11-20 21:24:06,555 - basicLogger - INFO - Query for drive event readings after 2022-11-20 21:24:01 and before 2022-11-20 21:24:06 returns 0 results
+2022-11-20 21:24:06,686 - basicLogger - INFO - Query for fly event readings after 2022-11-20 21:24:01 and before 2022-11-20 21:24:06 returns 0 results
+2022-11-20 21:24:11,556 - basicLogger - INFO - Query for drive event readings after 2022-11-20 21:24:06 and before 2022-11-20 21:24:11 returns 0 results
+2022-11-20 21:24:11,687 - basicLogger - INFO - Query for fly event readings after 2022-11-20 21:24:06 and before 2022-11-20 21:24:11 returns 0 results
+2022-11-20 21:24:16,559 - basicLogger - INFO - Query for drive event readings after 2022-11-20 21:24:11 and before 2022-11-20 21:24:16 returns 0 results
+2022-11-20 21:24:16,693 - basicLogger - INFO - Query for fly event readings after 2022-11-20 21:24:11 and before 2022-11-20 21:24:16 returns 0 results
+2022-11-20 21:24:21,650 - basicLogger - INFO - Query for drive event readings after 2022-11-20 21:24:16 and before 2022-11-20 21:24:21 returns 0 results
+2022-11-20 21:24:21,782 - basicLogger - INFO - Query for fly event readings after 2022-11-20 21:24:16 and before 2022-11-20 21:24:21 returns 0 results
+2022-11-20 21:24:26,577 - basicLogger - INFO - Query for drive event readings after 2022-11-20 21:24:21 and before 2022-11-20 21:24:26 returns 0 results
+2022-11-20 21:24:26,711 - basicLogger - INFO - Query for fly event readings after 2022-11-20 21:24:21 and before 2022-11-20 21:24:26 returns 0 results
+2022-11-20 21:24:31,562 - basicLogger - INFO - Query for drive event readings after 2022-11-20 21:24:26 and before 2022-11-20 21:24:31 returns 0 results
+2022-11-20 21:24:31,691 - basicLogger - INFO - Query for fly event readings after 2022-11-20 21:24:26 and before 2022-11-20 21:24:31 returns 0 results
+2022-11-20 21:24:36,558 - basicLogger - INFO - Query for drive event readings after 2022-11-20 21:24:31 and before 2022-11-20 21:24:36 returns 0 results
+2022-11-20 21:24:36,685 - basicLogger - INFO - Query for fly event readings after 2022-11-20 21:24:31 and before 2022-11-20 21:24:36 returns 0 results
+2022-11-20 21:24:41,567 - basicLogger - INFO - Query for drive event readings after 2022-11-20 21:24:36 and before 2022-11-20 21:24:41 returns 0 results
+2022-11-20 21:24:41,699 - basicLogger - INFO - Query for fly event readings after 2022-11-20 21:24:36 and before 2022-11-20 21:24:41 returns 0 results
+2022-11-20 21:25:07,125 - basicLogger - INFO - Storage Service connected to MySQL on hostname:kafka.westus3.cloudapp.azure.com and port:3306
+2022-11-20 21:25:07,192 - basicLogger - INFO - Storage Service connected to MySQL on hostname:kafka.westus3.cloudapp.azure.com and port:3306

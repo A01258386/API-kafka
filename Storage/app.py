@@ -21,7 +21,7 @@ with open('app_conf.yml', 'r') as f:
     storage_config = yaml.safe_load(f.read())
 STORAGE_SETTING = storage_config['datastore']
 # print(STORAGE_SETTING)
-
+KAFKA_CONNECTION_RETRY = 5 
 
 # print(
 # f"mysql+pymysql://{STORAGE_SETTING['user']}:{STORAGE_SETTING['password']}@{STORAGE_SETTING['hostname']}:{STORAGE_SETTING['port']}/{STORAGE_SETTING['db']}")
@@ -130,35 +130,42 @@ def flyEvent(body):
     return NoContent, 201
 
 
-def get_drive_stats(timestamp):
+def get_drive_stats(starttime, endtime):
     """ Gets drive readings after the timestamp """
     session = DB_SESSION()
-    timestamp_datetime = datetime.datetime.strptime(
-        timestamp, "%Y-%m-%d %H:%M:%S")
+    start_time = datetime.datetime.strptime(
+        starttime, "%Y-%m-%d %H:%M:%S")
+    end_time = datetime.datetime.strptime(
+        endtime, "%Y-%m-%d %H:%M:%S")
     readings = session.query(Drive).filter(
-        Drive.date_created >= timestamp_datetime)
+        Drive.date_created >= start_time, Drive.date_created <= end_time).all()
+    'select * from drive where date_created >= start_time and date_created <= end_time'
     results_list = []
     for reading in readings:
         results_list.append(reading.to_dict())
     session.close()
-    logger.info("Query for drive event readings after %s returns %d results" % (
-        timestamp, len(results_list)))
+    logger.info("Query for drive event readings after %s and before %s returns %d results" % (
+        str(start_time),str(end_time) , len(results_list)))
     return results_list, 200
 
 
-def get_fly_stats(timestamp):
+def get_fly_stats(starttime, endtime):
     """ Gets fly readings after the timestamp """
     session = DB_SESSION()
-    timestamp_datetime = datetime.datetime.strptime(
-        timestamp, "%Y-%m-%d %H:%M:%S")
+    start_time = datetime.datetime.strptime(
+        starttime, "%Y-%m-%d %H:%M:%S")
+    end_time = datetime.datetime.strptime(
+        endtime, "%Y-%m-%d %H:%M:%S")
+
     readings = session.query(Fly).filter(
-        Fly.date_created >= timestamp_datetime)
+        Fly.date_created >= start_time, Fly.date_created <= end_time).all()
     results_list = []
     for reading in readings:
         results_list.append(reading.to_dict())
     session.close()
-    logger.info("Query for fly event readings after %s returns %d results" % (
-        timestamp, len(results_list)))
+    logger.info("Query for fly event readings after %s and before %s returns %d results" % (
+    str(start_time),str(end_time) , len(results_list)))
+
     return results_list, 200
 
 def process_messages():
@@ -192,11 +199,34 @@ def process_messages():
             print('duplicate entry, ignored')
         # Commit the new message as being read
         consumer.commit_offsets()
+def kafka_connection_retry():
+    hostname = "%s:%d" % (app_config["events"]["hostname"],app_config["events"]["port"])
+    current_retry = 0 # for retrying kafka connection
+    while current_retry < KAFKA_CONNECTION_RETRY:
+        print('trying to connect to kafka')
+        try:
+            client = KafkaClient(hosts=hostname)
+            topic = client.topics[app_config["events"]["topic"]]
+            consumer = topic.get_simple_consumer(consumer_group=b'event_group',
+                auto_offset_reset=OffsetType.LATEST,
+                reset_offset_on_start=True,
+                consumer_timeout_ms=100)
+            break
+        except Exception as e:
+            logger.error("Error connecting to kafka %s" % e)
+            current_retry += 1
+    if current_retry == KAFKA_CONNECTION_RETRY:
+        logger.error("Failed to connect to kafka")
+        exit(1)
+    else:
+        logger.info("Connected to kafka !!!")
 
 app = connexion.FlaskApp(__name__, specification_dir='')
 app.add_api("openapi.yaml", strict_validation=True, validate_responses=True)
 
+
 if __name__ == "__main__":
+    kafka_connection_retry()
     t1 = Thread(target=process_messages)
     t1.setDaemon(True)
     t1.start()

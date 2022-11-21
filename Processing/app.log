@@ -9049,3 +9049,99 @@
 2022-11-20 17:23:29,670 - basicLogger - INFO - Populate process start
 2022-11-20 17:23:34,667 - basicLogger - INFO - Populate process start
 2022-11-20 17:23:39,662 - basicLogger - INFO - Populate process start
+2022-11-20 21:11:26,402 - basicLogger - INFO - Populate process start
+2022-11-20 21:11:31,402 - basicLogger - INFO - Populate process start
+2022-11-20 21:13:13,011 - basicLogger - INFO - Populate process start
+2022-11-20 21:13:18,008 - basicLogger - INFO - Populate process start
+2022-11-20 21:14:21,501 - basicLogger - INFO - Populate process start
+2022-11-20 21:14:22,270 - basicLogger - INFO - Number of drive events received: 0
+2022-11-20 21:14:22,270 - basicLogger - INFO - Number of fly events received: 0
+2022-11-20 21:14:22,271 - basicLogger - DEBUG - Trace_id for Drive and fly stats: 8fb1be5c-75de-423e-b462-530a3252ad79
+2022-11-20 21:14:22,305 - basicLogger - INFO - Populate process end
+2022-11-20 21:14:26,493 - basicLogger - INFO - Populate process start
+2022-11-20 21:14:26,759 - basicLogger - INFO - Number of drive events received: 0
+2022-11-20 21:14:26,759 - basicLogger - INFO - Number of fly events received: 0
+2022-11-20 21:14:26,760 - basicLogger - DEBUG - Trace_id for Drive and fly stats: e3129dc0-1ccd-409f-afca-98980ef957cd
+2022-11-20 21:14:26,778 - basicLogger - INFO - Populate process end
+2022-11-20 21:14:31,492 - basicLogger - INFO - Populate process start
+2022-11-20 21:14:31,751 - basicLogger - INFO - Number of drive events received: 0
+2022-11-20 21:14:31,752 - basicLogger - INFO - Number of fly events received: 0
+2022-11-20 21:14:31,753 - basicLogger - DEBUG - Trace_id for Drive and fly stats: dc64b91d-ebcd-4eed-b4a9-8e586695ef01
+2022-11-20 21:14:31,769 - basicLogger - INFO - Populate process end
+2022-11-20 21:16:30,905 - basicLogger - INFO - Populate process start
+2022-11-20 21:16:31,175 - basicLogger - INFO - Number of drive events received: 0
+2022-11-20 21:16:31,176 - basicLogger - INFO - Number of fly events received: 0
+2022-11-20 21:16:31,176 - basicLogger - DEBUG - Trace_id for Drive and fly stats: 9b7224ce-7319-4ba7-9ac3-8a3d883a874b
+2022-11-20 21:16:31,194 - basicLogger - INFO - Populate process end
+2022-11-20 21:16:35,897 - basicLogger - INFO - Populate process start
+2022-11-20 21:16:36,157 - basicLogger - INFO - Number of drive events received: 0
+2022-11-20 21:16:36,158 - basicLogger - INFO - Number of fly events received: 0
+2022-11-20 21:16:36,158 - basicLogger - DEBUG - Trace_id for Drive and fly stats: 5086d2cf-2773-42f0-9f14-f35f5c0cb330
+2022-11-20 21:16:36,173 - basicLogger - INFO - Populate process end
+2022-11-20 21:16:40,904 - basicLogger - INFO - Populate process start
+2022-11-20 21:16:41,165 - basicLogger - INFO - Number of drive events received: 0
+2022-11-20 21:16:41,165 - basicLogger - INFO - Number of fly events received: 0
+2022-11-20 21:16:41,166 - basicLogger - DEBUG - Trace_id for Drive and fly stats: 0f7415b9-815a-47be-ad2e-a95d85fbf310
+2022-11-20 21:16:41,186 - basicLogger - INFO - Populate process end
+2022-11-20 21:17:08,852 - basicLogger - INFO - Populate process start
+2022-11-20 21:17:09,131 - basicLogger - INFO - Number of drive events received: 0
+2022-11-20 21:17:09,133 - basicLogger - INFO - Number of fly events received: 0
+2022-11-20 21:17:09,134 - basicLogger - DEBUG - Trace_id for Drive and fly stats: 1ac58373-4b31-44f1-825f-1bf87f7912cf
+2022-11-20 21:17:09,170 - basicLogger - INFO - Populate process end
+2022-11-20 21:17:13,851 - basicLogger - INFO - Populate process start
+2022-11-20 21:17:14,113 - basicLogger - INFO - Number of drive events received: 0
+2022-11-20 21:17:14,114 - basicLogger - INFO - Number of fly events received: 0
+2022-11-20 21:17:14,114 - basicLogger - DEBUG - Trace_id for Drive and fly stats: e51b6ea0-b4a0-4413-a9f8-1477a0a87751
+2022-11-20 21:17:14,131 - basicLogger - INFO - Populate process end
+2022-11-20 21:24:01,430 - basicLogger - INFO - Populate process start
+2022-11-20 21:24:02,186 - basicLogger - INFO - Number of drive events received: 0
+2022-11-20 21:24:02,187 - basicLogger - INFO - Number of fly events received: 0
+2022-11-20 21:24:02,187 - basicLogger - DEBUG - Trace_id for Drive and fly stats: beb1fd2f-f35b-4a81-b5d5-9e6a8618cb08
+2022-11-20 21:24:02,263 - basicLogger - INFO - Populate process end
+2022-11-20 21:24:06,431 - basicLogger - INFO - Populate process start
+2022-11-20 21:24:06,694 - basicLogger - INFO - Number of drive events received: 0
+2022-11-20 21:24:06,694 - basicLogger - INFO - Number of fly events received: 0
+2022-11-20 21:24:06,695 - basicLogger - DEBUG - Trace_id for Drive and fly stats: c13a7968-0561-4a23-9008-49f517594724
+2022-11-20 21:24:06,710 - basicLogger - INFO - Populate process end
+2022-11-20 21:24:11,431 - basicLogger - INFO - Populate process start
+2022-11-20 21:24:11,696 - basicLogger - INFO - Number of drive events received: 0
+2022-11-20 21:24:11,697 - basicLogger - INFO - Number of fly events received: 0
+2022-11-20 21:24:11,698 - basicLogger - DEBUG - Trace_id for Drive and fly stats: eaecb215-8802-40ee-be21-e1669b3835be
+2022-11-20 21:24:11,713 - basicLogger - INFO - Populate process end
+2022-11-20 21:24:16,429 - basicLogger - INFO - Populate process start
+2022-11-20 21:24:16,702 - basicLogger - INFO - Number of drive events received: 0
+2022-11-20 21:24:16,703 - basicLogger - INFO - Number of fly events received: 0
+2022-11-20 21:24:16,704 - basicLogger - DEBUG - Trace_id for Drive and fly stats: 28d18a80-e269-4158-b696-0ab7c43cc221
+2022-11-20 21:24:16,726 - basicLogger - INFO - Populate process end
+2022-11-20 21:24:21,463 - basicLogger - INFO - Populate process start
+2022-11-20 21:24:21,794 - basicLogger - INFO - Number of drive events received: 0
+2022-11-20 21:24:21,795 - basicLogger - INFO - Number of fly events received: 0
+2022-11-20 21:24:21,795 - basicLogger - DEBUG - Trace_id for Drive and fly stats: 03d25953-487f-4ee8-9e1c-3950c4250a40
+2022-11-20 21:24:21,816 - basicLogger - INFO - Populate process end
+2022-11-20 21:24:26,434 - basicLogger - INFO - Populate process start
+2022-11-20 21:24:26,719 - basicLogger - INFO - Number of drive events received: 0
+2022-11-20 21:24:26,719 - basicLogger - INFO - Number of fly events received: 0
+2022-11-20 21:24:26,720 - basicLogger - DEBUG - Trace_id for Drive and fly stats: 99efea68-7d49-44f6-afc3-296adb9d6acb
+2022-11-20 21:24:26,738 - basicLogger - INFO - Populate process end
+2022-11-20 21:24:31,430 - basicLogger - INFO - Populate process start
+2022-11-20 21:24:31,698 - basicLogger - INFO - Number of drive events received: 0
+2022-11-20 21:24:31,699 - basicLogger - INFO - Number of fly events received: 0
+2022-11-20 21:24:31,699 - basicLogger - DEBUG - Trace_id for Drive and fly stats: 1985267d-bf9a-4341-a78d-a321c25db880
+2022-11-20 21:24:31,717 - basicLogger - INFO - Populate process end
+2022-11-20 21:24:36,432 - basicLogger - INFO - Populate process start
+2022-11-20 21:24:36,694 - basicLogger - INFO - Number of drive events received: 0
+2022-11-20 21:24:36,695 - basicLogger - INFO - Number of fly events received: 0
+2022-11-20 21:24:36,696 - basicLogger - DEBUG - Trace_id for Drive and fly stats: fab3858b-148e-4352-b5fb-46cd370a006b
+2022-11-20 21:24:36,714 - basicLogger - INFO - Populate process end
+2022-11-20 21:24:41,432 - basicLogger - INFO - Populate process start
+2022-11-20 21:24:41,709 - basicLogger - INFO - Number of drive events received: 0
+2022-11-20 21:24:41,710 - basicLogger - INFO - Number of fly events received: 0
+2022-11-20 21:24:41,711 - basicLogger - DEBUG - Trace_id for Drive and fly stats: 302856fd-1902-44ca-9635-692de4e2b8c0
+2022-11-20 21:24:41,734 - basicLogger - INFO - Populate process end
+2022-11-20 21:24:46,430 - basicLogger - INFO - Populate process start
+2022-11-20 21:24:51,431 - basicLogger - INFO - Populate process start
+2022-11-20 21:24:56,431 - basicLogger - INFO - Populate process start
+2022-11-20 21:25:01,430 - basicLogger - INFO - Populate process start
+2022-11-20 21:25:06,431 - basicLogger - INFO - Populate process start
+2022-11-20 21:25:11,430 - basicLogger - INFO - Populate process start
+2022-11-20 21:25:16,429 - basicLogger - INFO - Populate process start

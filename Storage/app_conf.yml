@@ -4,7 +4,7 @@ datastore:
   password: password
   hostname: kafka.westus3.cloudapp.azure.com
   port: 3306
-  db: example
+  db: events
 events:
   hostname: kafka.westus3.cloudapp.azure.com
   port: 9092

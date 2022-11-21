@@ -12,14 +12,14 @@ import uuid
 import logging.config
 import datetime
 from pykafka import KafkaClient
-
+from pykafka.common import OffsetType
 
 
 data = []
 # timestamp
 # timestamp = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 # trace = str(uuid.uuid4)
-
+KAFKA_CONNECTION_RETRY = 5 
 with open('app_conf.yml', 'r') as f:
     app_config = yaml.safe_load(f.read())
 
@@ -96,16 +96,32 @@ def flyEvent(body):
 
     # return res.text, res.status_code
     return msg, 201
-
+def kafka_connection_retry():
+    hostname = "%s:%d" % (app_config["events"]["hostname"],app_config["events"]["port"])
+    current_retry = 0 # for retrying kafka connection
+    while current_retry < KAFKA_CONNECTION_RETRY:
+        print('trying to connect to kafka')
+        try:
+            client = KafkaClient(hosts=hostname)
+            topic = client.topics[app_config["events"]["topic"]]
+            consumer = topic.get_simple_consumer(consumer_group=b'event_group',
+                auto_offset_reset=OffsetType.LATEST,
+                reset_offset_on_start=True,
+                consumer_timeout_ms=100)
+            break
+        except Exception as e:
+            logger.error("Error connecting to kafka %s" % e)
+            current_retry += 1
+    if current_retry == KAFKA_CONNECTION_RETRY:
+        logger.error("Failed to connect to kafka")
+        exit(1)
+    else:
+        logger.info("Connected to kafka !!!")
 
 app = connexion.App(__name__, specification_dir='')
 app.add_api('openapi.yaml', strict_validation=True, validate_responses=True)
 
 
 if __name__ == '__main__':
-    client = KafkaClient(hosts='kafka.westus3.cloudapp.azure.com:9092')
-    topic = client.topics[str.encode('events')]
-    consumer = topic.get_simple_consumer(reset_offset_on_start=True,
-                                            consumer_timeout_ms=1000)
-    print(consumer)
+    kafka_connection_retry()
     app.run(port=8080, debug=True)

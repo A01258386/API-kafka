@@ -51,18 +51,11 @@ def get_stats():
 
     return result_object
 
-def get_drive_stats():
+def get_drive_stats(starttime, endtime):
     """ Get stats from request """
-    # timestamp = datetime.now()
-    # timestamp = datetime.strptime(
-    # timestamp, "%Y-%m-%d %H:%M:%S")
-    timestamp = datetime.now()-timedelta(0,5)
-    timestamp = timestamp.replace(microsecond=0)
-    
-    print(datetime.now().replace(microsecond=0))
-    print(timestamp)
-    # URL = DRIVE_STATS_URL+"?timestamp="+str(timestamp)
-    URL = DRIVE_STATS_URL + '?timestamp=' + str(timestamp)
+    starttime = datetime.strptime(starttime, "%Y-%m-%d %H:%M:%S")
+    endtime = datetime.strptime(endtime, "%Y-%m-%d %H:%M:%S")
+    URL = DRIVE_STATS_URL + '?starttime=' + str(starttime) + '&endtime=' + str(endtime)
     TEST_URL = DRIVE_STATS_URL+"?timestamp=2022-10-2 14:22:22"
     response = requests.get(URL)
     if response.status_code==204:
@@ -72,17 +65,11 @@ def get_drive_stats():
     # print(response.json())
     return response.json(), response.status_code
 
-def get_fly_stats():
+def get_fly_stats(starttime, endtime):
     """ Get stats from request """
-    # timestamp = datetime.now()
-    # timestamp = datetime.strptime(
-    # timestamp, "%Y-%m-%d %H:%M:%S")
-
-    timestamp = datetime.now()-timedelta(0,5)
-    timestamp = timestamp.replace(microsecond=0)
-
-    URL = FLY_STATS_URL + '?timestamp=' + str(timestamp)
-    TEST_URL = FLY_STATS_URL+"?timestamp=2022-10-2 14:22:22"
+    starttime = datetime.strptime(starttime, "%Y-%m-%d %H:%M:%S")
+    endtime = datetime.strptime(endtime, "%Y-%m-%d %H:%M:%S")
+    URL = FLY_STATS_URL + '?starttime=' + str(starttime) + '&endtime=' + str(endtime)
     response = requests.get(URL)
     #if the response.status_code=204,return empty json
     if response.status_code==204:
@@ -93,11 +80,21 @@ def get_fly_stats():
 
 def calculate_stats():
     """ Calculate stats """
-    drive_data ,drive_status= get_drive_stats()
-    fly_data ,fly_status= get_fly_stats()
+    startime = str(app_config['scheduler']['start_time'])
+    timenow = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+
+    drive_data ,drive_status= get_drive_stats(startime, timenow)
+    fly_data ,fly_status= get_fly_stats(startime, timenow)
     trace_id = str(uuid.uuid4())
 
+    app_config['scheduler']['start_time'] = timenow
+    with open('app_conf.yml', 'w') as f:
+        yaml.dump(app_config, f)
     
+    print('========================================')
+    print(startime, timenow)
+    print('='*40)
+
     calc = {"max_speed": 0, "max_lat": 0, "min_air_pressure": 0, "min_altitute": 0, "min_weight": 0}
 
     ''' - max_speed
@@ -193,5 +190,5 @@ app.app.config['CORS_HEADERS'] = 'Content-Type'
 
 if __name__ == "__main__":
     # run our standalone gevent server
-    # init_scheduler()
+    init_scheduler()
     app.run(port=8100, use_reloader=False,debug=True)

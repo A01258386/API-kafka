@@ -1,8 +1,9 @@
-version: 1
 datastore:
   filename: stats.sqlite
-scheduler:
-  period_sec: 5
 eventstore:
   url: http://127.0.0.1:8090/drive_stats
   url2: http://127.0.0.1:8090/fly_stats
+scheduler:
+  period_sec: 5
+  start_time: '2022-11-20 21:24:41'
+version: 1
