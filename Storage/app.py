@@ -25,16 +25,16 @@ STORAGE_SETTING = storage_config['datastore']
 
 # print(
 # f"mysql+pymysql://{STORAGE_SETTING['user']}:{STORAGE_SETTING['password']}@{STORAGE_SETTING['hostname']}:{STORAGE_SETTING['port']}/{STORAGE_SETTING['db']}")
-engine = create_engine(
-    f"mysql+pymysql://{STORAGE_SETTING['user']}:{STORAGE_SETTING['password']}@{STORAGE_SETTING['hostname']}:{STORAGE_SETTING['port']}/{STORAGE_SETTING['db']}")
-Base.metadata.bind = engine
+# engine = create_engine(
+#     f"mysql+pymysql://{STORAGE_SETTING['user']}:{STORAGE_SETTING['password']}@{STORAGE_SETTING['hostname']}:{STORAGE_SETTING['port']}/{STORAGE_SETTING['db']}")
+# Base.metadata.bind = engine
 
-DBSession = sessionmaker(bind=engine)
-session = DBSession()
-DB_ENGINE = create_engine(
-    f"mysql+pymysql://{STORAGE_SETTING['user']}:{STORAGE_SETTING['password']}@{STORAGE_SETTING['hostname']}:{STORAGE_SETTING['port']}/{STORAGE_SETTING['db']}")
-Base.metadata.bind = DB_ENGINE
-DB_SESSION = sessionmaker(bind=DB_ENGINE)
+# DBSession = sessionmaker(bind=engine)
+# session = DBSession()
+# DB_ENGINE = create_engine(
+#     f"mysql+pymysql://{STORAGE_SETTING['user']}:{STORAGE_SETTING['password']}@{STORAGE_SETTING['hostname']}:{STORAGE_SETTING['port']}/{STORAGE_SETTING['db']}")
+# Base.metadata.bind = DB_ENGINE
+# DB_SESSION = sessionmaker(bind=DB_ENGINE)
 
 with open('app_conf.yml', 'r') as f:
     app_config = yaml.safe_load(f.read())

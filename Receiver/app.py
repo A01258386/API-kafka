@@ -47,7 +47,7 @@ def driveEvent(body):
     client = KafkaClient(hosts='kafka.westus3.cloudapp.azure.com:9092')
     topic = client.topics[str.encode('events')]
     producer = topic.get_sync_producer()
-
+    print(producer)
     msg = {"type":"drive",
     "datetime":datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
     "payload":body}
@@ -79,7 +79,7 @@ def flyEvent(body):
     client = KafkaClient(hosts='kafka.westus3.cloudapp.azure.com:9092')
     topic = client.topics[str.encode('events')]
     producer = topic.get_sync_producer()
-
+    print(producer)
     msg = {"type":"fly",
     "datetime":datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
     "payload":body}
@@ -103,4 +103,9 @@ app.add_api('openapi.yaml', strict_validation=True, validate_responses=True)
 
 
 if __name__ == '__main__':
+    client = KafkaClient(hosts='kafka.westus3.cloudapp.azure.com:9092')
+    topic = client.topics[str.encode('events')]
+    consumer = topic.get_simple_consumer(reset_offset_on_start=True,
+                                            consumer_timeout_ms=1000)
+    print(consumer)
     app.run(port=8080, debug=True)
