@@ -11,6 +11,7 @@ import requests
 from stats import Stats
 import uuid
 import pytz
+from flask_cors import CORS, cross_origin
 
 with open('app_conf.yml', 'r') as f:
     app_config = yaml.safe_load(f.read())
@@ -36,10 +37,19 @@ DB_SESSION = sessionmaker(bind=DB_ENGINE)
 
 def get_stats():
     session = DB_SESSION()
-    results =session.query(Stats).order_by(Stats.last_updated.desc())
+    sql_query = 'select AVG(max_speed) as average_speed, AVG(max_lat) as average_altitue , AVG(min_airpressure) as average_air_pressure , AVG(min_weight) as average_weight from stats'
+    result = session.execute(sql_query)
+    timestamp = datetime.now()
+    print(result)
+    for row in result:
+        result_object = {'average_speed': row.average_speed,
+                         'average_altitue': row.average_altitue,
+                         'average_air_pressure': row.average_air_pressure,
+                         'average_weight': row.average_weight,
+                         'timestamp': timestamp}
     session.close()
 
-    return results
+    return result_object
 
 def get_drive_stats():
     """ Get stats from request """
@@ -178,8 +188,10 @@ def init_scheduler():
 
 app = connexion.FlaskApp(__name__, specification_dir='')
 app.add_api("openapi.yaml", strict_validation=True, validate_responses=True)
+CORS(app.app)
+app.app.config['CORS_HEADERS'] = 'Content-Type'
 
 if __name__ == "__main__":
     # run our standalone gevent server
-    init_scheduler()
+    # init_scheduler()
     app.run(port=8100, use_reloader=False,debug=True)

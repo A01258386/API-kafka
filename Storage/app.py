@@ -31,10 +31,10 @@ STORAGE_SETTING = storage_config['datastore']
 
 # DBSession = sessionmaker(bind=engine)
 # session = DBSession()
-# DB_ENGINE = create_engine(
-#     f"mysql+pymysql://{STORAGE_SETTING['user']}:{STORAGE_SETTING['password']}@{STORAGE_SETTING['hostname']}:{STORAGE_SETTING['port']}/{STORAGE_SETTING['db']}")
-# Base.metadata.bind = DB_ENGINE
-# DB_SESSION = sessionmaker(bind=DB_ENGINE)
+DB_ENGINE = create_engine(
+    f"mysql+pymysql://{STORAGE_SETTING['user']}:{STORAGE_SETTING['password']}@{STORAGE_SETTING['hostname']}:{STORAGE_SETTING['port']}/{STORAGE_SETTING['db']}")
+Base.metadata.bind = DB_ENGINE
+DB_SESSION = sessionmaker(bind=DB_ENGINE)
 
 with open('app_conf.yml', 'r') as f:
     app_config = yaml.safe_load(f.read())
@@ -179,6 +179,7 @@ def process_messages():
         msg = json.loads(msg_str)
         logger.info("Message: %s" % msg)
         payload = msg["payload"]
+        print(msg)
         try:
             if msg["type"] == "drive": # Change this to your event type
                 # Store the event1 (i.e., the payload) to the DB

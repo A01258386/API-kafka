@@ -36,7 +36,7 @@ services:
     image: mysql:5.7
     restart: always
     environment:
-      MYSQL_DATABASE: 'example'
+      MYSQL_DATABASE: 'events'
       MYSQL_USER: 'user'
       MYSQL_PASSWORD: 'password'
       MYSQL_ROOT_PASSWORD: 'password'
@@ -47,42 +47,51 @@ services:
     volumes:
       - ./my-db:/var/lib/mysql
 
-  # audit:
-  #   container_name: audit
-  #   build: ../Audit/
-  #   image: audit:latest
-  #   ports:
-  #     - "8110:8110"
-  #   restart: unless-stopped
-  #   depends_on:
-  #     - kafka
+  audit:
+    container_name: audit
+    build: ../Audit/
+    image: audit:latest
+    ports:
+      - "8110:8110"
+    restart: unless-stopped
+    depends_on:
+      - kafka
 
-  # processing:
-  #   container_name: processing
-  #   build: ../Processing/
-  #   image: processing:latest
-  #   ports:
-  #     - "8100:8100"
-  #   restart: unless-stopped
-  #   depends_on:
-  #     - storage
+  processing:
+    container_name: processing
+    build: ../Processing/
+    image: processing:latest
+    ports:
+      - "8100:8100"
+    restart: unless-stopped
+    depends_on:
+      - storage
 
-  # receiver:
-  #   container_name: receiver
-  #   build: ../Receiver/
-  #   image: receiver:latest
-  #   ports:
-  #     - "8080:8080"
-  #   restart: unless-stopped
-  #   depends_on:
-  #     - kafka
+  receiver:
+    container_name: receiver
+    build: ../Receiver/
+    image: receiver:latest
+    ports:
+      - "8080:8080"
+    restart: unless-stopped
+    depends_on:
+      - kafka
     
-  # storage:
-  #   container_name: storage
-  #   build: ../Storage/
-  #   image: storage:latest
-  #   ports:
-  #     - "8090:8090"
-  #   restart: unless-stopped
-  #   depends_on:
-  #     - kafka
+  storage:
+    container_name: storage
+    build: ../Storage/
+    image: storage:latest
+    ports:
+      - "8090:8090"
+    restart: unless-stopped
+    depends_on:
+      - kafka
+  dashboard:
+    container_name: dashboard
+    build: ../Dashboard/
+    image: dashboard:latest
+    ports:
+      - "3000:3000"
+    depends_on:
+      - "processing"
+      - "audit"

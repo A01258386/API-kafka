@@ -55,3 +55,551 @@
 2022-11-10 14:33:42,518 - basicLogger - ERROR - No more messages found
 2022-11-10 14:33:42,518 - basicLogger - ERROR - Could not find BP at index 200
 2022-11-10 14:33:44,981 - basicLogger - INFO - Retrieving BP at index 2
+2022-11-20 16:54:39,478 - basicLogger - INFO - Storage Service connected to MySQL on hostname:kafka.westus3.cloudapp.azure.com and port:3306
+2022-11-20 16:54:39,550 - basicLogger - INFO - Storage Service connected to MySQL on hostname:kafka.westus3.cloudapp.azure.com and port:3306
+2022-11-20 16:54:41,553 - basicLogger - INFO - Storage Service connected to MySQL on hostname:kafka.westus3.cloudapp.azure.com and port:3306
+2022-11-20 16:54:41,616 - basicLogger - INFO - Storage Service connected to MySQL on hostname:kafka.westus3.cloudapp.azure.com and port:3306
+2022-11-20 16:56:42,167 - basicLogger - INFO - Retrieving BP at index 1
+2022-11-20 16:57:03,543 - basicLogger - INFO - Storage Service connected to MySQL on hostname:kafka.westus3.cloudapp.azure.com and port:3306
+2022-11-20 16:57:03,587 - basicLogger - INFO - Storage Service connected to MySQL on hostname:kafka.westus3.cloudapp.azure.com and port:3306
+2022-11-20 17:19:34,905 - basicLogger - INFO - Storage Service connected to MySQL on hostname:kafka.westus3.cloudapp.azure.com and port:3306
+2022-11-20 17:19:35,044 - basicLogger - INFO - Storage Service connected to MySQL on hostname:kafka.westus3.cloudapp.azure.com and port:3306
+2022-11-20 17:48:19,792 - basicLogger - INFO - Storage Service connected to MySQL on hostname:kafka.westus3.cloudapp.azure.com and port:3306
+2022-11-20 17:48:19,908 - basicLogger - INFO - Storage Service connected to MySQL on hostname:kafka.westus3.cloudapp.azure.com and port:3306
+2022-11-20 17:48:22,444 - basicLogger - INFO - Storage Service connected to MySQL on hostname:kafka.westus3.cloudapp.azure.com and port:3306
+2022-11-20 17:48:22,569 - basicLogger - INFO - Storage Service connected to MySQL on hostname:kafka.westus3.cloudapp.azure.com and port:3306
+2022-11-20 17:48:23,300 - basicLogger - INFO - Retrieving BP at index 1
+2022-11-20 17:48:25,015 - basicLogger - INFO - Retrieving BP at index 55
+2022-11-20 17:48:25,018 - basicLogger - INFO - Retrieving BP at index 60
+2022-11-20 17:48:26,060 - basicLogger - ERROR - No more messages found
+2022-11-20 17:48:26,060 - basicLogger - ERROR - No more messages found
+2022-11-20 17:48:26,061 - basicLogger - ERROR - Could not find BP at index 60
+2022-11-20 17:48:26,061 - basicLogger - ERROR - Could not find BP at index 55
+2022-11-20 17:48:30,745 - basicLogger - INFO - Retrieving BP at index 2
+2022-11-20 17:48:30,745 - basicLogger - INFO - Retrieving BP at index 56
+2022-11-20 17:48:31,787 - basicLogger - ERROR - No more messages found
+2022-11-20 17:48:31,788 - basicLogger - ERROR - Could not find BP at index 56
+2022-11-20 17:48:36,274 - basicLogger - INFO - Retrieving BP at index 32
+2022-11-20 17:48:36,275 - basicLogger - INFO - Retrieving BP at index 96
+2022-11-20 17:48:37,317 - basicLogger - ERROR - No more messages found
+2022-11-20 17:48:37,317 - basicLogger - ERROR - Could not find BP at index 96
+2022-11-20 17:48:37,320 - basicLogger - ERROR - No more messages found
+2022-11-20 17:48:37,320 - basicLogger - ERROR - Could not find BP at index 32
+2022-11-20 17:48:41,653 - basicLogger - INFO - Retrieving BP at index 4
+2022-11-20 17:48:41,654 - basicLogger - INFO - Retrieving BP at index 34
+2022-11-20 17:48:42,698 - basicLogger - ERROR - No more messages found
+2022-11-20 17:48:42,699 - basicLogger - ERROR - Could not find BP at index 34
+2022-11-20 17:48:46,989 - basicLogger - INFO - Retrieving BP at index 35
+2022-11-20 17:48:47,006 - basicLogger - INFO - Retrieving BP at index 59
+2022-11-20 17:48:48,032 - basicLogger - ERROR - No more messages found
+2022-11-20 17:48:48,033 - basicLogger - ERROR - Could not find BP at index 35
+2022-11-20 17:48:48,051 - basicLogger - ERROR - No more messages found
+2022-11-20 17:48:48,055 - basicLogger - ERROR - Could not find BP at index 59
+2022-11-20 17:48:53,016 - basicLogger - INFO - Retrieving BP at index 62
+2022-11-20 17:48:53,026 - basicLogger - INFO - Retrieving BP at index 49
+2022-11-20 17:48:54,057 - basicLogger - ERROR - No more messages found
+2022-11-20 17:48:54,058 - basicLogger - ERROR - Could not find BP at index 62
+2022-11-20 17:48:54,068 - basicLogger - ERROR - No more messages found
+2022-11-20 17:48:54,068 - basicLogger - ERROR - Could not find BP at index 49
+2022-11-20 17:48:59,032 - basicLogger - INFO - Retrieving BP at index 92
+2022-11-20 17:48:59,032 - basicLogger - INFO - Retrieving BP at index 19
+2022-11-20 17:49:00,125 - basicLogger - ERROR - No more messages found
+2022-11-20 17:49:00,125 - basicLogger - ERROR - No more messages found
+2022-11-20 17:49:00,125 - basicLogger - ERROR - Could not find BP at index 92
+2022-11-20 17:49:00,126 - basicLogger - ERROR - Could not find BP at index 19
+2022-11-20 17:49:05,031 - basicLogger - INFO - Retrieving BP at index 66
+2022-11-20 17:49:05,041 - basicLogger - INFO - Retrieving BP at index 67
+2022-11-20 17:49:06,073 - basicLogger - ERROR - No more messages found
+2022-11-20 17:49:06,074 - basicLogger - ERROR - Could not find BP at index 66
+2022-11-20 17:49:06,084 - basicLogger - ERROR - No more messages found
+2022-11-20 17:49:06,084 - basicLogger - ERROR - Could not find BP at index 67
+2022-11-20 17:49:11,027 - basicLogger - INFO - Retrieving BP at index 14
+2022-11-20 17:49:11,052 - basicLogger - INFO - Retrieving BP at index 24
+2022-11-20 17:49:12,070 - basicLogger - ERROR - No more messages found
+2022-11-20 17:49:12,070 - basicLogger - ERROR - Could not find BP at index 14
+2022-11-20 17:49:12,094 - basicLogger - ERROR - No more messages found
+2022-11-20 17:49:12,094 - basicLogger - ERROR - Could not find BP at index 24
+2022-11-20 17:49:17,019 - basicLogger - INFO - Retrieving BP at index 45
+2022-11-20 17:49:17,020 - basicLogger - INFO - Retrieving BP at index 32
+2022-11-20 17:49:18,067 - basicLogger - ERROR - No more messages found
+2022-11-20 17:49:18,067 - basicLogger - ERROR - No more messages found
+2022-11-20 17:49:18,068 - basicLogger - ERROR - Could not find BP at index 45
+2022-11-20 17:49:18,069 - basicLogger - ERROR - Could not find BP at index 32
+2022-11-20 17:49:23,064 - basicLogger - INFO - Retrieving BP at index 68
+2022-11-20 17:49:23,069 - basicLogger - INFO - Retrieving BP at index 20
+2022-11-20 17:49:24,107 - basicLogger - ERROR - No more messages found
+2022-11-20 17:49:24,107 - basicLogger - ERROR - Could not find BP at index 68
+2022-11-20 17:49:24,112 - basicLogger - ERROR - No more messages found
+2022-11-20 17:49:24,113 - basicLogger - ERROR - Could not find BP at index 20
+2022-11-20 17:49:29,072 - basicLogger - INFO - Retrieving BP at index 79
+2022-11-20 17:49:29,085 - basicLogger - INFO - Retrieving BP at index 76
+2022-11-20 17:49:30,119 - basicLogger - ERROR - No more messages found
+2022-11-20 17:49:30,120 - basicLogger - ERROR - Could not find BP at index 79
+2022-11-20 17:49:30,136 - basicLogger - ERROR - No more messages found
+2022-11-20 17:49:30,137 - basicLogger - ERROR - Could not find BP at index 76
+2022-11-20 17:49:35,058 - basicLogger - INFO - Retrieving BP at index 98
+2022-11-20 17:49:35,072 - basicLogger - INFO - Retrieving BP at index 20
+2022-11-20 17:49:36,122 - basicLogger - ERROR - No more messages found
+2022-11-20 17:49:36,123 - basicLogger - ERROR - Could not find BP at index 98
+2022-11-20 17:49:36,124 - basicLogger - ERROR - No more messages found
+2022-11-20 17:49:36,125 - basicLogger - ERROR - Could not find BP at index 20
+2022-11-20 17:49:41,043 - basicLogger - INFO - Retrieving BP at index 37
+2022-11-20 17:49:41,044 - basicLogger - INFO - Retrieving BP at index 26
+2022-11-20 17:49:42,089 - basicLogger - ERROR - No more messages found
+2022-11-20 17:49:42,090 - basicLogger - ERROR - Could not find BP at index 37
+2022-11-20 17:49:42,095 - basicLogger - ERROR - No more messages found
+2022-11-20 17:49:42,096 - basicLogger - ERROR - Could not find BP at index 26
+2022-11-20 17:49:47,176 - basicLogger - INFO - Retrieving BP at index 53
+2022-11-20 17:49:47,249 - basicLogger - INFO - Retrieving BP at index 26
+2022-11-20 17:49:48,226 - basicLogger - ERROR - No more messages found
+2022-11-20 17:49:48,226 - basicLogger - ERROR - Could not find BP at index 53
+2022-11-20 17:49:48,305 - basicLogger - ERROR - No more messages found
+2022-11-20 17:49:48,305 - basicLogger - ERROR - Could not find BP at index 26
+2022-11-20 17:49:56,129 - basicLogger - INFO - Retrieving BP at index 41
+2022-11-20 17:49:56,133 - basicLogger - INFO - Retrieving BP at index 52
+2022-11-20 17:49:57,174 - basicLogger - ERROR - No more messages found
+2022-11-20 17:49:57,175 - basicLogger - ERROR - Could not find BP at index 41
+2022-11-20 17:49:57,176 - basicLogger - ERROR - No more messages found
+2022-11-20 17:49:57,177 - basicLogger - ERROR - Could not find BP at index 52
+2022-11-20 17:50:01,470 - basicLogger - INFO - Retrieving BP at index 33
+2022-11-20 17:50:01,481 - basicLogger - INFO - Retrieving BP at index 38
+2022-11-20 17:50:02,516 - basicLogger - ERROR - No more messages found
+2022-11-20 17:50:02,516 - basicLogger - ERROR - Could not find BP at index 33
+2022-11-20 17:50:02,521 - basicLogger - ERROR - No more messages found
+2022-11-20 17:50:02,521 - basicLogger - ERROR - Could not find BP at index 38
+2022-11-20 17:50:07,002 - basicLogger - INFO - Retrieving BP at index 36
+2022-11-20 17:50:07,003 - basicLogger - INFO - Retrieving BP at index 55
+2022-11-20 17:50:08,044 - basicLogger - ERROR - No more messages found
+2022-11-20 17:50:08,044 - basicLogger - ERROR - Could not find BP at index 36
+2022-11-20 17:50:08,046 - basicLogger - ERROR - No more messages found
+2022-11-20 17:50:08,047 - basicLogger - ERROR - Could not find BP at index 55
+2022-11-20 17:50:12,497 - basicLogger - INFO - Retrieving BP at index 86
+2022-11-20 17:50:12,498 - basicLogger - INFO - Retrieving BP at index 91
+2022-11-20 17:50:13,541 - basicLogger - ERROR - No more messages found
+2022-11-20 17:50:13,542 - basicLogger - ERROR - Could not find BP at index 86
+2022-11-20 17:50:13,550 - basicLogger - ERROR - No more messages found
+2022-11-20 17:50:13,551 - basicLogger - ERROR - Could not find BP at index 91
+2022-11-20 17:50:18,023 - basicLogger - INFO - Retrieving BP at index 56
+2022-11-20 17:50:18,024 - basicLogger - INFO - Retrieving BP at index 64
+2022-11-20 17:50:19,073 - basicLogger - ERROR - No more messages found
+2022-11-20 17:50:19,073 - basicLogger - ERROR - No more messages found
+2022-11-20 17:50:19,074 - basicLogger - ERROR - Could not find BP at index 64
+2022-11-20 17:50:19,074 - basicLogger - ERROR - Could not find BP at index 56
+2022-11-20 17:50:27,058 - basicLogger - INFO - Retrieving BP at index 2
+2022-11-20 17:50:27,059 - basicLogger - INFO - Retrieving BP at index 34
+2022-11-20 17:50:28,105 - basicLogger - ERROR - No more messages found
+2022-11-20 17:50:28,107 - basicLogger - ERROR - Could not find BP at index 34
+2022-11-20 17:50:33,008 - basicLogger - INFO - Retrieving BP at index 55
+2022-11-20 17:50:33,027 - basicLogger - INFO - Retrieving BP at index 28
+2022-11-20 17:50:34,050 - basicLogger - ERROR - No more messages found
+2022-11-20 17:50:34,051 - basicLogger - ERROR - Could not find BP at index 55
+2022-11-20 17:50:34,068 - basicLogger - ERROR - No more messages found
+2022-11-20 17:50:34,068 - basicLogger - ERROR - Could not find BP at index 28
+2022-11-20 17:50:39,086 - basicLogger - INFO - Retrieving BP at index 78
+2022-11-20 17:50:39,087 - basicLogger - INFO - Retrieving BP at index 69
+2022-11-20 17:50:40,138 - basicLogger - ERROR - No more messages found
+2022-11-20 17:50:40,138 - basicLogger - ERROR - No more messages found
+2022-11-20 17:50:40,138 - basicLogger - ERROR - Could not find BP at index 69
+2022-11-20 17:50:40,139 - basicLogger - ERROR - Could not find BP at index 78
+2022-11-20 17:50:45,001 - basicLogger - INFO - Retrieving BP at index 75
+2022-11-20 17:50:45,014 - basicLogger - INFO - Retrieving BP at index 95
+2022-11-20 17:50:46,043 - basicLogger - ERROR - No more messages found
+2022-11-20 17:50:46,044 - basicLogger - ERROR - Could not find BP at index 75
+2022-11-20 17:50:46,055 - basicLogger - ERROR - No more messages found
+2022-11-20 17:50:46,055 - basicLogger - ERROR - Could not find BP at index 95
+2022-11-20 17:50:51,030 - basicLogger - INFO - Retrieving BP at index 63
+2022-11-20 17:50:51,032 - basicLogger - INFO - Retrieving BP at index 61
+2022-11-20 17:50:52,073 - basicLogger - ERROR - No more messages found
+2022-11-20 17:50:52,074 - basicLogger - ERROR - Could not find BP at index 63
+2022-11-20 17:50:52,075 - basicLogger - ERROR - No more messages found
+2022-11-20 17:50:52,077 - basicLogger - ERROR - Could not find BP at index 61
+2022-11-20 17:50:57,031 - basicLogger - INFO - Retrieving BP at index 1
+2022-11-20 17:50:57,032 - basicLogger - INFO - Retrieving BP at index 64
+2022-11-20 17:50:58,074 - basicLogger - ERROR - No more messages found
+2022-11-20 17:50:58,074 - basicLogger - ERROR - Could not find BP at index 64
+2022-11-20 17:51:03,036 - basicLogger - INFO - Retrieving BP at index 70
+2022-11-20 17:51:03,036 - basicLogger - INFO - Retrieving BP at index 92
+2022-11-20 17:51:04,078 - basicLogger - ERROR - No more messages found
+2022-11-20 17:51:04,079 - basicLogger - ERROR - Could not find BP at index 70
+2022-11-20 17:51:04,084 - basicLogger - ERROR - No more messages found
+2022-11-20 17:51:04,084 - basicLogger - ERROR - Could not find BP at index 92
+2022-11-20 17:51:09,032 - basicLogger - INFO - Retrieving BP at index 15
+2022-11-20 17:51:09,033 - basicLogger - INFO - Retrieving BP at index 32
+2022-11-20 17:51:10,074 - basicLogger - ERROR - No more messages found
+2022-11-20 17:51:10,074 - basicLogger - ERROR - No more messages found
+2022-11-20 17:51:10,074 - basicLogger - ERROR - Could not find BP at index 32
+2022-11-20 17:51:10,075 - basicLogger - ERROR - Could not find BP at index 15
+2022-11-20 17:51:15,018 - basicLogger - INFO - Retrieving BP at index 22
+2022-11-20 17:51:15,024 - basicLogger - INFO - Retrieving BP at index 27
+2022-11-20 17:51:16,061 - basicLogger - ERROR - No more messages found
+2022-11-20 17:51:16,061 - basicLogger - ERROR - Could not find BP at index 22
+2022-11-20 17:51:16,067 - basicLogger - ERROR - No more messages found
+2022-11-20 17:51:16,068 - basicLogger - ERROR - Could not find BP at index 27
+2022-11-20 17:51:21,021 - basicLogger - INFO - Retrieving BP at index 38
+2022-11-20 17:51:21,030 - basicLogger - INFO - Retrieving BP at index 21
+2022-11-20 17:51:22,065 - basicLogger - ERROR - No more messages found
+2022-11-20 17:51:22,065 - basicLogger - ERROR - Could not find BP at index 38
+2022-11-20 17:51:22,072 - basicLogger - ERROR - No more messages found
+2022-11-20 17:51:22,073 - basicLogger - ERROR - Could not find BP at index 21
+2022-11-20 17:51:27,037 - basicLogger - INFO - Retrieving BP at index 32
+2022-11-20 17:51:27,038 - basicLogger - INFO - Retrieving BP at index 11
+2022-11-20 17:51:28,083 - basicLogger - ERROR - No more messages found
+2022-11-20 17:51:28,084 - basicLogger - ERROR - Could not find BP at index 11
+2022-11-20 17:51:28,086 - basicLogger - ERROR - No more messages found
+2022-11-20 17:51:28,087 - basicLogger - ERROR - Could not find BP at index 32
+2022-11-20 17:51:33,016 - basicLogger - INFO - Retrieving BP at index 5
+2022-11-20 17:51:33,032 - basicLogger - INFO - Retrieving BP at index 22
+2022-11-20 17:51:34,059 - basicLogger - ERROR - No more messages found
+2022-11-20 17:51:34,059 - basicLogger - ERROR - Could not find BP at index 5
+2022-11-20 17:51:34,073 - basicLogger - ERROR - No more messages found
+2022-11-20 17:51:34,074 - basicLogger - ERROR - Could not find BP at index 22
+2022-11-20 17:51:39,032 - basicLogger - INFO - Retrieving BP at index 34
+2022-11-20 17:51:39,038 - basicLogger - INFO - Retrieving BP at index 29
+2022-11-20 17:51:40,077 - basicLogger - ERROR - No more messages found
+2022-11-20 17:51:40,077 - basicLogger - ERROR - Could not find BP at index 34
+2022-11-20 17:51:40,085 - basicLogger - ERROR - No more messages found
+2022-11-20 17:51:40,086 - basicLogger - ERROR - Could not find BP at index 29
+2022-11-20 17:51:44,368 - basicLogger - INFO - Retrieving BP at index 55
+2022-11-20 17:51:44,368 - basicLogger - INFO - Retrieving BP at index 66
+2022-11-20 17:51:45,411 - basicLogger - ERROR - No more messages found
+2022-11-20 17:51:45,411 - basicLogger - ERROR - Could not find BP at index 55
+2022-11-20 17:51:45,420 - basicLogger - ERROR - No more messages found
+2022-11-20 17:51:45,421 - basicLogger - ERROR - Could not find BP at index 66
+2022-11-20 17:51:50,022 - basicLogger - INFO - Retrieving BP at index 88
+2022-11-20 17:51:50,025 - basicLogger - INFO - Retrieving BP at index 98
+2022-11-20 17:51:51,069 - basicLogger - ERROR - No more messages found
+2022-11-20 17:51:51,069 - basicLogger - ERROR - No more messages found
+2022-11-20 17:51:51,069 - basicLogger - ERROR - Could not find BP at index 98
+2022-11-20 17:51:51,070 - basicLogger - ERROR - Could not find BP at index 88
+2022-11-20 17:51:56,036 - basicLogger - INFO - Retrieving BP at index 11
+2022-11-20 17:51:56,036 - basicLogger - INFO - Retrieving BP at index 76
+2022-11-20 17:51:57,077 - basicLogger - ERROR - No more messages found
+2022-11-20 17:51:57,077 - basicLogger - ERROR - Could not find BP at index 76
+2022-11-20 17:52:01,383 - basicLogger - INFO - Retrieving BP at index 71
+2022-11-20 17:52:01,383 - basicLogger - INFO - Retrieving BP at index 62
+2022-11-20 17:52:02,424 - basicLogger - ERROR - No more messages found
+2022-11-20 17:52:02,424 - basicLogger - ERROR - Could not find BP at index 62
+2022-11-20 17:52:02,426 - basicLogger - ERROR - No more messages found
+2022-11-20 17:52:02,427 - basicLogger - ERROR - Could not find BP at index 71
+2022-11-20 17:52:07,024 - basicLogger - INFO - Retrieving BP at index 85
+2022-11-20 17:52:07,035 - basicLogger - INFO - Retrieving BP at index 22
+2022-11-20 17:52:08,070 - basicLogger - ERROR - No more messages found
+2022-11-20 17:52:08,070 - basicLogger - ERROR - Could not find BP at index 85
+2022-11-20 17:52:08,078 - basicLogger - ERROR - No more messages found
+2022-11-20 17:52:08,079 - basicLogger - ERROR - Could not find BP at index 22
+2022-11-20 17:52:12,430 - basicLogger - INFO - Retrieving BP at index 95
+2022-11-20 17:52:12,451 - basicLogger - INFO - Retrieving BP at index 18
+2022-11-20 17:52:13,471 - basicLogger - ERROR - No more messages found
+2022-11-20 17:52:13,471 - basicLogger - ERROR - Could not find BP at index 95
+2022-11-20 17:52:13,494 - basicLogger - ERROR - No more messages found
+2022-11-20 17:52:13,494 - basicLogger - ERROR - Could not find BP at index 18
+2022-11-20 17:52:17,760 - basicLogger - INFO - Retrieving BP at index 59
+2022-11-20 17:52:17,766 - basicLogger - INFO - Retrieving BP at index 82
+2022-11-20 17:52:18,803 - basicLogger - ERROR - No more messages found
+2022-11-20 17:52:18,803 - basicLogger - ERROR - Could not find BP at index 59
+2022-11-20 17:52:18,807 - basicLogger - ERROR - No more messages found
+2022-11-20 17:52:18,807 - basicLogger - ERROR - Could not find BP at index 82
+2022-11-20 17:52:23,100 - basicLogger - INFO - Retrieving BP at index 37
+2022-11-20 17:52:23,102 - basicLogger - INFO - Retrieving BP at index 95
+2022-11-20 17:52:24,143 - basicLogger - ERROR - No more messages found
+2022-11-20 17:52:24,143 - basicLogger - ERROR - Could not find BP at index 37
+2022-11-20 17:52:24,154 - basicLogger - ERROR - No more messages found
+2022-11-20 17:52:24,158 - basicLogger - ERROR - Could not find BP at index 95
+2022-11-20 17:52:29,034 - basicLogger - INFO - Retrieving BP at index 21
+2022-11-20 17:52:29,036 - basicLogger - INFO - Retrieving BP at index 88
+2022-11-20 17:52:30,101 - basicLogger - ERROR - No more messages found
+2022-11-20 17:52:30,102 - basicLogger - ERROR - No more messages found
+2022-11-20 17:52:30,104 - basicLogger - ERROR - Could not find BP at index 21
+2022-11-20 17:52:30,106 - basicLogger - ERROR - Could not find BP at index 88
+2022-11-20 17:52:35,042 - basicLogger - INFO - Retrieving BP at index 20
+2022-11-20 17:52:35,042 - basicLogger - INFO - Retrieving BP at index 65
+2022-11-20 17:52:36,087 - basicLogger - ERROR - No more messages found
+2022-11-20 17:52:36,087 - basicLogger - ERROR - No more messages found
+2022-11-20 17:52:36,088 - basicLogger - ERROR - Could not find BP at index 20
+2022-11-20 17:52:36,088 - basicLogger - ERROR - Could not find BP at index 65
+2022-11-20 17:52:41,015 - basicLogger - INFO - Retrieving BP at index 61
+2022-11-20 17:52:41,015 - basicLogger - INFO - Retrieving BP at index 3
+2022-11-20 17:52:42,069 - basicLogger - ERROR - No more messages found
+2022-11-20 17:52:42,070 - basicLogger - ERROR - Could not find BP at index 61
+2022-11-20 17:52:47,017 - basicLogger - INFO - Retrieving BP at index 69
+2022-11-20 17:52:47,028 - basicLogger - INFO - Retrieving BP at index 92
+2022-11-20 17:52:48,059 - basicLogger - ERROR - No more messages found
+2022-11-20 17:52:48,059 - basicLogger - ERROR - Could not find BP at index 69
+2022-11-20 17:52:48,087 - basicLogger - ERROR - No more messages found
+2022-11-20 17:52:48,088 - basicLogger - ERROR - Could not find BP at index 92
+2022-11-20 17:52:53,014 - basicLogger - INFO - Retrieving BP at index 12
+2022-11-20 17:52:53,016 - basicLogger - INFO - Retrieving BP at index 79
+2022-11-20 17:52:54,058 - basicLogger - ERROR - No more messages found
+2022-11-20 17:52:54,058 - basicLogger - ERROR - Could not find BP at index 79
+2022-11-20 17:52:58,448 - basicLogger - INFO - Retrieving BP at index 17
+2022-11-20 17:52:58,457 - basicLogger - INFO - Retrieving BP at index 0
+2022-11-20 17:52:59,493 - basicLogger - ERROR - No more messages found
+2022-11-20 17:52:59,493 - basicLogger - ERROR - Could not find BP at index 17
+2022-11-20 17:52:59,500 - basicLogger - ERROR - No more messages found
+2022-11-20 17:52:59,501 - basicLogger - ERROR - Could not find BP at index 0
+2022-11-20 17:53:03,778 - basicLogger - INFO - Retrieving BP at index 74
+2022-11-20 17:53:03,818 - basicLogger - INFO - Retrieving BP at index 51
+2022-11-20 17:53:04,820 - basicLogger - ERROR - No more messages found
+2022-11-20 17:53:04,820 - basicLogger - ERROR - Could not find BP at index 74
+2022-11-20 17:53:04,861 - basicLogger - ERROR - No more messages found
+2022-11-20 17:53:04,861 - basicLogger - ERROR - Could not find BP at index 51
+2022-11-20 17:53:09,130 - basicLogger - INFO - Retrieving BP at index 16
+2022-11-20 17:53:09,157 - basicLogger - INFO - Retrieving BP at index 7
+2022-11-20 17:53:10,171 - basicLogger - ERROR - No more messages found
+2022-11-20 17:53:10,171 - basicLogger - ERROR - Could not find BP at index 16
+2022-11-20 17:53:14,456 - basicLogger - INFO - Retrieving BP at index 47
+2022-11-20 17:53:14,472 - basicLogger - INFO - Retrieving BP at index 77
+2022-11-20 17:53:15,497 - basicLogger - ERROR - No more messages found
+2022-11-20 17:53:15,498 - basicLogger - ERROR - Could not find BP at index 47
+2022-11-20 17:53:15,516 - basicLogger - ERROR - No more messages found
+2022-11-20 17:53:15,518 - basicLogger - ERROR - Could not find BP at index 77
+2022-11-20 17:53:19,789 - basicLogger - INFO - Retrieving BP at index 94
+2022-11-20 17:53:19,799 - basicLogger - INFO - Retrieving BP at index 2
+2022-11-20 17:53:20,834 - basicLogger - ERROR - No more messages found
+2022-11-20 17:53:20,834 - basicLogger - ERROR - Could not find BP at index 94
+2022-11-20 17:53:26,044 - basicLogger - INFO - Retrieving BP at index 80
+2022-11-20 17:53:26,048 - basicLogger - INFO - Retrieving BP at index 83
+2022-11-20 17:53:27,086 - basicLogger - ERROR - No more messages found
+2022-11-20 17:53:27,086 - basicLogger - ERROR - Could not find BP at index 80
+2022-11-20 17:53:27,088 - basicLogger - ERROR - No more messages found
+2022-11-20 17:53:27,088 - basicLogger - ERROR - Could not find BP at index 83
+2022-11-20 17:53:32,022 - basicLogger - INFO - Retrieving BP at index 26
+2022-11-20 17:53:32,023 - basicLogger - INFO - Retrieving BP at index 1
+2022-11-20 17:53:33,069 - basicLogger - ERROR - No more messages found
+2022-11-20 17:53:33,069 - basicLogger - ERROR - No more messages found
+2022-11-20 17:53:33,071 - basicLogger - ERROR - Could not find BP at index 26
+2022-11-20 17:53:33,072 - basicLogger - ERROR - Could not find BP at index 1
+2022-11-20 17:53:38,008 - basicLogger - INFO - Retrieving BP at index 99
+2022-11-20 17:53:38,009 - basicLogger - INFO - Retrieving BP at index 29
+2022-11-20 17:53:39,053 - basicLogger - ERROR - No more messages found
+2022-11-20 17:53:39,053 - basicLogger - ERROR - No more messages found
+2022-11-20 17:53:39,053 - basicLogger - ERROR - Could not find BP at index 99
+2022-11-20 17:53:39,054 - basicLogger - ERROR - Could not find BP at index 29
+2022-11-20 17:53:44,029 - basicLogger - INFO - Retrieving BP at index 86
+2022-11-20 17:53:44,032 - basicLogger - INFO - Retrieving BP at index 33
+2022-11-20 17:53:45,071 - basicLogger - ERROR - No more messages found
+2022-11-20 17:53:45,071 - basicLogger - ERROR - Could not find BP at index 86
+2022-11-20 17:53:45,073 - basicLogger - ERROR - No more messages found
+2022-11-20 17:53:45,074 - basicLogger - ERROR - Could not find BP at index 33
+2022-11-20 17:53:50,028 - basicLogger - INFO - Retrieving BP at index 73
+2022-11-20 17:53:50,039 - basicLogger - INFO - Retrieving BP at index 31
+2022-11-20 17:53:51,070 - basicLogger - ERROR - No more messages found
+2022-11-20 17:53:51,070 - basicLogger - ERROR - Could not find BP at index 73
+2022-11-20 17:53:51,085 - basicLogger - ERROR - No more messages found
+2022-11-20 17:53:51,085 - basicLogger - ERROR - Could not find BP at index 31
+2022-11-20 17:53:56,022 - basicLogger - INFO - Retrieving BP at index 33
+2022-11-20 17:53:56,022 - basicLogger - INFO - Retrieving BP at index 77
+2022-11-20 17:53:57,066 - basicLogger - ERROR - No more messages found
+2022-11-20 17:53:57,066 - basicLogger - ERROR - No more messages found
+2022-11-20 17:53:57,066 - basicLogger - ERROR - Could not find BP at index 77
+2022-11-20 17:53:57,067 - basicLogger - ERROR - Could not find BP at index 33
+2022-11-20 17:54:02,033 - basicLogger - INFO - Retrieving BP at index 12
+2022-11-20 17:54:02,034 - basicLogger - INFO - Retrieving BP at index 54
+2022-11-20 17:54:03,076 - basicLogger - ERROR - No more messages found
+2022-11-20 17:54:03,076 - basicLogger - ERROR - Could not find BP at index 54
+2022-11-20 17:54:08,019 - basicLogger - INFO - Retrieving BP at index 45
+2022-11-20 17:54:08,040 - basicLogger - INFO - Retrieving BP at index 80
+2022-11-20 17:54:09,061 - basicLogger - ERROR - No more messages found
+2022-11-20 17:54:09,061 - basicLogger - ERROR - Could not find BP at index 45
+2022-11-20 17:54:09,087 - basicLogger - ERROR - No more messages found
+2022-11-20 17:54:09,088 - basicLogger - ERROR - Could not find BP at index 80
+2022-11-20 17:54:14,021 - basicLogger - INFO - Retrieving BP at index 97
+2022-11-20 17:54:14,021 - basicLogger - INFO - Retrieving BP at index 54
+2022-11-20 17:54:15,067 - basicLogger - ERROR - No more messages found
+2022-11-20 17:54:15,067 - basicLogger - ERROR - Could not find BP at index 97
+2022-11-20 17:54:15,069 - basicLogger - ERROR - No more messages found
+2022-11-20 17:54:15,070 - basicLogger - ERROR - Could not find BP at index 54
+2022-11-20 17:54:20,022 - basicLogger - INFO - Retrieving BP at index 81
+2022-11-20 17:54:20,042 - basicLogger - INFO - Retrieving BP at index 34
+2022-11-20 17:54:21,066 - basicLogger - ERROR - No more messages found
+2022-11-20 17:54:21,066 - basicLogger - ERROR - Could not find BP at index 81
+2022-11-20 17:54:21,085 - basicLogger - ERROR - No more messages found
+2022-11-20 17:54:21,085 - basicLogger - ERROR - Could not find BP at index 34
+2022-11-20 17:54:26,251 - basicLogger - INFO - Retrieving BP at index 74
+2022-11-20 17:54:26,254 - basicLogger - INFO - Retrieving BP at index 89
+2022-11-20 17:54:27,294 - basicLogger - ERROR - No more messages found
+2022-11-20 17:54:27,295 - basicLogger - ERROR - Could not find BP at index 74
+2022-11-20 17:54:27,297 - basicLogger - ERROR - No more messages found
+2022-11-20 17:54:27,298 - basicLogger - ERROR - Could not find BP at index 89
+2022-11-20 17:54:32,026 - basicLogger - INFO - Retrieving BP at index 67
+2022-11-20 17:54:32,026 - basicLogger - INFO - Retrieving BP at index 15
+2022-11-20 17:54:33,069 - basicLogger - ERROR - No more messages found
+2022-11-20 17:54:33,069 - basicLogger - ERROR - No more messages found
+2022-11-20 17:54:33,070 - basicLogger - ERROR - Could not find BP at index 67
+2022-11-20 17:54:33,070 - basicLogger - ERROR - Could not find BP at index 15
+2022-11-20 17:54:38,030 - basicLogger - INFO - Retrieving BP at index 55
+2022-11-20 17:54:38,032 - basicLogger - INFO - Retrieving BP at index 83
+2022-11-20 17:54:39,072 - basicLogger - ERROR - No more messages found
+2022-11-20 17:54:39,073 - basicLogger - ERROR - Could not find BP at index 55
+2022-11-20 17:54:39,074 - basicLogger - ERROR - No more messages found
+2022-11-20 17:54:39,075 - basicLogger - ERROR - Could not find BP at index 83
+2022-11-20 17:54:44,032 - basicLogger - INFO - Retrieving BP at index 12
+2022-11-20 17:54:44,038 - basicLogger - INFO - Retrieving BP at index 85
+2022-11-20 17:54:45,080 - basicLogger - ERROR - No more messages found
+2022-11-20 17:54:45,081 - basicLogger - ERROR - Could not find BP at index 85
+2022-11-20 17:54:50,018 - basicLogger - INFO - Retrieving BP at index 30
+2022-11-20 17:54:50,018 - basicLogger - INFO - Retrieving BP at index 82
+2022-11-20 17:54:51,066 - basicLogger - ERROR - No more messages found
+2022-11-20 17:54:51,071 - basicLogger - ERROR - Could not find BP at index 30
+2022-11-20 17:54:51,082 - basicLogger - ERROR - No more messages found
+2022-11-20 17:54:51,083 - basicLogger - ERROR - Could not find BP at index 82
+2022-11-20 17:54:56,015 - basicLogger - INFO - Retrieving BP at index 41
+2022-11-20 17:54:56,015 - basicLogger - INFO - Retrieving BP at index 76
+2022-11-20 17:54:57,067 - basicLogger - ERROR - No more messages found
+2022-11-20 17:54:57,067 - basicLogger - ERROR - Could not find BP at index 76
+2022-11-20 17:54:57,072 - basicLogger - ERROR - No more messages found
+2022-11-20 17:54:57,072 - basicLogger - ERROR - Could not find BP at index 41
+2022-11-20 17:55:02,030 - basicLogger - INFO - Retrieving BP at index 71
+2022-11-20 17:55:02,041 - basicLogger - INFO - Retrieving BP at index 99
+2022-11-20 17:55:03,089 - basicLogger - ERROR - No more messages found
+2022-11-20 17:55:03,089 - basicLogger - ERROR - No more messages found
+2022-11-20 17:55:03,089 - basicLogger - ERROR - Could not find BP at index 99
+2022-11-20 17:55:03,090 - basicLogger - ERROR - Could not find BP at index 71
+2022-11-20 17:55:08,034 - basicLogger - INFO - Retrieving BP at index 15
+2022-11-20 17:55:08,034 - basicLogger - INFO - Retrieving BP at index 82
+2022-11-20 17:55:09,075 - basicLogger - ERROR - No more messages found
+2022-11-20 17:55:09,075 - basicLogger - ERROR - Could not find BP at index 15
+2022-11-20 17:55:09,078 - basicLogger - ERROR - No more messages found
+2022-11-20 17:55:09,079 - basicLogger - ERROR - Could not find BP at index 82
+2022-11-20 17:55:14,039 - basicLogger - INFO - Retrieving BP at index 71
+2022-11-20 17:55:14,050 - basicLogger - INFO - Retrieving BP at index 56
+2022-11-20 17:55:15,083 - basicLogger - ERROR - No more messages found
+2022-11-20 17:55:15,083 - basicLogger - ERROR - Could not find BP at index 71
+2022-11-20 17:55:15,092 - basicLogger - ERROR - No more messages found
+2022-11-20 17:55:15,092 - basicLogger - ERROR - Could not find BP at index 56
+2022-11-20 17:55:20,022 - basicLogger - INFO - Retrieving BP at index 75
+2022-11-20 17:55:20,022 - basicLogger - INFO - Retrieving BP at index 45
+2022-11-20 17:55:21,067 - basicLogger - ERROR - No more messages found
+2022-11-20 17:55:21,067 - basicLogger - ERROR - No more messages found
+2022-11-20 17:55:21,067 - basicLogger - ERROR - Could not find BP at index 75
+2022-11-20 17:55:21,068 - basicLogger - ERROR - Could not find BP at index 45
+2022-11-20 17:55:26,016 - basicLogger - INFO - Retrieving BP at index 67
+2022-11-20 17:55:26,044 - basicLogger - INFO - Retrieving BP at index 36
+2022-11-20 17:55:27,057 - basicLogger - ERROR - No more messages found
+2022-11-20 17:55:27,057 - basicLogger - ERROR - Could not find BP at index 67
+2022-11-20 17:55:27,085 - basicLogger - ERROR - No more messages found
+2022-11-20 17:55:27,085 - basicLogger - ERROR - Could not find BP at index 36
+2022-11-20 17:55:32,017 - basicLogger - INFO - Retrieving BP at index 60
+2022-11-20 17:55:32,027 - basicLogger - INFO - Retrieving BP at index 66
+2022-11-20 17:55:33,061 - basicLogger - ERROR - No more messages found
+2022-11-20 17:55:33,065 - basicLogger - ERROR - Could not find BP at index 60
+2022-11-20 17:55:33,077 - basicLogger - ERROR - No more messages found
+2022-11-20 17:55:33,083 - basicLogger - ERROR - Could not find BP at index 66
+2022-11-20 17:55:38,027 - basicLogger - INFO - Retrieving BP at index 0
+2022-11-20 17:55:38,029 - basicLogger - INFO - Retrieving BP at index 85
+2022-11-20 17:55:39,069 - basicLogger - ERROR - No more messages found
+2022-11-20 17:55:39,070 - basicLogger - ERROR - Could not find BP at index 0
+2022-11-20 17:55:39,072 - basicLogger - ERROR - No more messages found
+2022-11-20 17:55:39,073 - basicLogger - ERROR - Could not find BP at index 85
+2022-11-20 17:55:44,025 - basicLogger - INFO - Retrieving BP at index 20
+2022-11-20 17:55:44,055 - basicLogger - INFO - Retrieving BP at index 1
+2022-11-20 17:55:45,069 - basicLogger - ERROR - No more messages found
+2022-11-20 17:55:45,069 - basicLogger - ERROR - Could not find BP at index 20
+2022-11-20 17:55:50,016 - basicLogger - INFO - Retrieving BP at index 71
+2022-11-20 17:55:50,019 - basicLogger - INFO - Retrieving BP at index 47
+2022-11-20 17:55:51,057 - basicLogger - ERROR - No more messages found
+2022-11-20 17:55:51,057 - basicLogger - ERROR - Could not find BP at index 71
+2022-11-20 17:55:51,062 - basicLogger - ERROR - No more messages found
+2022-11-20 17:55:51,064 - basicLogger - ERROR - Could not find BP at index 47
+2022-11-20 17:55:56,027 - basicLogger - INFO - Retrieving BP at index 42
+2022-11-20 17:55:56,027 - basicLogger - INFO - Retrieving BP at index 89
+2022-11-20 17:55:57,068 - basicLogger - ERROR - No more messages found
+2022-11-20 17:55:57,068 - basicLogger - ERROR - No more messages found
+2022-11-20 17:55:57,068 - basicLogger - ERROR - Could not find BP at index 89
+2022-11-20 17:55:57,069 - basicLogger - ERROR - Could not find BP at index 42
+2022-11-20 17:56:02,011 - basicLogger - INFO - Retrieving BP at index 40
+2022-11-20 17:56:02,014 - basicLogger - INFO - Retrieving BP at index 55
+2022-11-20 17:56:03,052 - basicLogger - ERROR - No more messages found
+2022-11-20 17:56:03,052 - basicLogger - ERROR - Could not find BP at index 40
+2022-11-20 17:56:03,055 - basicLogger - ERROR - No more messages found
+2022-11-20 17:56:03,056 - basicLogger - ERROR - Could not find BP at index 55
+2022-11-20 17:56:08,019 - basicLogger - INFO - Retrieving BP at index 21
+2022-11-20 17:56:08,031 - basicLogger - INFO - Retrieving BP at index 39
+2022-11-20 17:56:09,064 - basicLogger - ERROR - No more messages found
+2022-11-20 17:56:09,065 - basicLogger - ERROR - Could not find BP at index 21
+2022-11-20 17:56:09,075 - basicLogger - ERROR - No more messages found
+2022-11-20 17:56:09,075 - basicLogger - ERROR - Could not find BP at index 39
+2022-11-20 17:56:14,027 - basicLogger - INFO - Retrieving BP at index 91
+2022-11-20 17:56:14,031 - basicLogger - INFO - Retrieving BP at index 68
+2022-11-20 17:56:15,069 - basicLogger - ERROR - No more messages found
+2022-11-20 17:56:15,069 - basicLogger - ERROR - Could not find BP at index 91
+2022-11-20 17:56:15,072 - basicLogger - ERROR - No more messages found
+2022-11-20 17:56:15,072 - basicLogger - ERROR - Could not find BP at index 68
+2022-11-20 17:56:20,054 - basicLogger - INFO - Retrieving BP at index 5
+2022-11-20 17:56:20,054 - basicLogger - INFO - Retrieving BP at index 43
+2022-11-20 17:56:21,097 - basicLogger - ERROR - No more messages found
+2022-11-20 17:56:21,097 - basicLogger - ERROR - No more messages found
+2022-11-20 17:56:21,097 - basicLogger - ERROR - Could not find BP at index 43
+2022-11-20 17:56:21,098 - basicLogger - ERROR - Could not find BP at index 5
+2022-11-20 17:56:26,036 - basicLogger - INFO - Retrieving BP at index 70
+2022-11-20 17:56:26,040 - basicLogger - INFO - Retrieving BP at index 57
+2022-11-20 17:56:27,077 - basicLogger - ERROR - No more messages found
+2022-11-20 17:56:27,077 - basicLogger - ERROR - Could not find BP at index 70
+2022-11-20 17:56:27,083 - basicLogger - ERROR - No more messages found
+2022-11-20 17:56:27,084 - basicLogger - ERROR - Could not find BP at index 57
+2022-11-20 17:56:32,021 - basicLogger - INFO - Retrieving BP at index 39
+2022-11-20 17:56:32,022 - basicLogger - INFO - Retrieving BP at index 92
+2022-11-20 17:56:33,062 - basicLogger - ERROR - No more messages found
+2022-11-20 17:56:33,063 - basicLogger - ERROR - Could not find BP at index 39
+2022-11-20 17:56:33,065 - basicLogger - ERROR - No more messages found
+2022-11-20 17:56:33,066 - basicLogger - ERROR - Could not find BP at index 92
+2022-11-20 17:56:38,018 - basicLogger - INFO - Retrieving BP at index 46
+2022-11-20 17:56:38,034 - basicLogger - INFO - Retrieving BP at index 98
+2022-11-20 17:56:39,058 - basicLogger - ERROR - No more messages found
+2022-11-20 17:56:39,059 - basicLogger - ERROR - Could not find BP at index 46
+2022-11-20 17:56:39,076 - basicLogger - ERROR - No more messages found
+2022-11-20 17:56:39,076 - basicLogger - ERROR - Could not find BP at index 98
+2022-11-20 17:56:44,026 - basicLogger - INFO - Retrieving BP at index 51
+2022-11-20 17:56:44,028 - basicLogger - INFO - Retrieving BP at index 74
+2022-11-20 17:56:45,071 - basicLogger - ERROR - No more messages found
+2022-11-20 17:56:45,071 - basicLogger - ERROR - No more messages found
+2022-11-20 17:56:45,072 - basicLogger - ERROR - Could not find BP at index 51
+2022-11-20 17:56:45,079 - basicLogger - ERROR - Could not find BP at index 74
+2022-11-20 17:56:50,001 - basicLogger - INFO - Retrieving BP at index 20
+2022-11-20 17:56:50,008 - basicLogger - INFO - Retrieving BP at index 24
+2022-11-20 17:56:51,042 - basicLogger - ERROR - No more messages found
+2022-11-20 17:56:51,042 - basicLogger - ERROR - Could not find BP at index 20
+2022-11-20 17:56:51,049 - basicLogger - ERROR - No more messages found
+2022-11-20 17:56:51,050 - basicLogger - ERROR - Could not find BP at index 24
+2022-11-20 17:56:56,028 - basicLogger - INFO - Retrieving BP at index 96
+2022-11-20 17:56:56,041 - basicLogger - INFO - Retrieving BP at index 2
+2022-11-20 17:56:57,069 - basicLogger - ERROR - No more messages found
+2022-11-20 17:56:57,070 - basicLogger - ERROR - Could not find BP at index 96
+2022-11-20 17:57:02,020 - basicLogger - INFO - Retrieving BP at index 76
+2022-11-20 17:57:02,026 - basicLogger - INFO - Retrieving BP at index 72
+2022-11-20 17:57:03,066 - basicLogger - ERROR - No more messages found
+2022-11-20 17:57:03,067 - basicLogger - ERROR - No more messages found
+2022-11-20 17:57:03,067 - basicLogger - ERROR - Could not find BP at index 76
+2022-11-20 17:57:03,068 - basicLogger - ERROR - Could not find BP at index 72
+2022-11-20 17:57:08,048 - basicLogger - INFO - Retrieving BP at index 85
+2022-11-20 17:57:08,052 - basicLogger - INFO - Retrieving BP at index 64
+2022-11-20 17:57:09,089 - basicLogger - ERROR - No more messages found
+2022-11-20 17:57:09,090 - basicLogger - ERROR - Could not find BP at index 85
+2022-11-20 17:57:09,094 - basicLogger - ERROR - No more messages found
+2022-11-20 17:57:09,094 - basicLogger - ERROR - Could not find BP at index 64
+2022-11-20 17:57:14,038 - basicLogger - INFO - Retrieving BP at index 4
+2022-11-20 17:57:14,038 - basicLogger - INFO - Retrieving BP at index 89
+2022-11-20 17:57:15,085 - basicLogger - ERROR - No more messages found
+2022-11-20 17:57:15,085 - basicLogger - ERROR - Could not find BP at index 89
+2022-11-20 17:57:15,087 - basicLogger - ERROR - No more messages found
+2022-11-20 17:57:15,088 - basicLogger - ERROR - Could not find BP at index 4
+2022-11-20 17:57:20,030 - basicLogger - INFO - Retrieving BP at index 58
+2022-11-20 17:57:20,034 - basicLogger - INFO - Retrieving BP at index 36
+2022-11-20 17:57:21,075 - basicLogger - ERROR - No more messages found
+2022-11-20 17:57:21,076 - basicLogger - ERROR - Could not find BP at index 58
+2022-11-20 17:57:21,078 - basicLogger - ERROR - No more messages found
+2022-11-20 17:57:21,078 - basicLogger - ERROR - Could not find BP at index 36
+2022-11-20 17:57:26,024 - basicLogger - INFO - Retrieving BP at index 6
+2022-11-20 17:57:26,029 - basicLogger - INFO - Retrieving BP at index 35
+2022-11-20 17:57:27,069 - basicLogger - ERROR - No more messages found
+2022-11-20 17:57:27,070 - basicLogger - ERROR - Could not find BP at index 6
+2022-11-20 17:57:27,074 - basicLogger - ERROR - No more messages found
+2022-11-20 17:57:27,074 - basicLogger - ERROR - Could not find BP at index 35
+2022-11-20 17:57:32,033 - basicLogger - INFO - Retrieving BP at index 44
+2022-11-20 17:57:32,044 - basicLogger - INFO - Retrieving BP at index 26
+2022-11-20 17:57:33,075 - basicLogger - ERROR - No more messages found
+2022-11-20 17:57:33,076 - basicLogger - ERROR - Could not find BP at index 44
+2022-11-20 17:57:33,087 - basicLogger - ERROR - No more messages found
+2022-11-20 17:57:33,088 - basicLogger - ERROR - Could not find BP at index 26
+2022-11-20 17:57:38,010 - basicLogger - INFO - Retrieving BP at index 83
+2022-11-20 17:57:38,011 - basicLogger - INFO - Retrieving BP at index 1
