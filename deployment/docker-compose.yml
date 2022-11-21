@@ -66,7 +66,7 @@ services:
     restart: unless-stopped
     depends_on:
       - storage
-
+    network_mode: "host"
   receiver:
     container_name: receiver
     build: ../Receiver/
