@@ -122,6 +122,8 @@ def calculate_stats():
         - min_altitute
         - min_weight'''
     
+
+    #hello
     #calculate max_speed of drive
     tmp_data = {}
     
