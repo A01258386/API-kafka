@@ -126,6 +126,7 @@ def calculate_stats():
     tmp_data = {}
     for row in drive_data:
         for key in row:
+            print(row[key])
             if key not in tmp_data:
                 tmp_data[key] = [row[key]]
             else:
