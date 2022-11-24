@@ -127,7 +127,7 @@ def calculate_stats():
     #calculate max_speed of drive
     tmp_data = {}
     
-    print(drive_data)
+    print("drive data",drive_data)
     for row in drive_data:
         for key in row:
             # print(row)
