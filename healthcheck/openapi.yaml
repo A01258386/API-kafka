@@ -1,0 +1,75 @@
+openapi: 3.0.0
+servers:
+  - url: "http://localhost:8080"
+info:
+  description: First API
+  version: "1.0.0"
+  title: Flve API
+  contact:
+    email: ggokmen@my.bcit.com
+  license:
+    name: Apache 2.0
+    url: "http://www.apache.org/licenses/LICENSE-2.0.html"
+tags:
+  - name: admins
+    description: Secured Admin-only calls
+  - name: developers
+    description: Operations available to regular developers
+paths:
+  /stats:
+    get:
+      summary: gets driving and flying data results
+      operationId: app.get_stats
+      description: Get driving and flying data from storage
+      responses:
+        "200":
+          description: Successful return list of drive and flyevent data
+          content:
+            application/json:
+              schema:
+                type: object
+                items:
+                  $ref: "#/components/schemas/ReadingStats"
+        "400":
+          description: Invalid request from STORAGE
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+  /health:
+    get:
+      summary: health check endpoint
+      operationId: app.health
+      description: always returns 200
+      responses:
+        200:
+          description: endpoint is healthy
+components:
+  schemas:
+    ReadingStats:
+      required:
+        - max_speed
+        - max_lat
+        - min_air_pressure
+        - min_altitute
+        - min_weight
+      properties:
+        max_speed:
+          type: integer
+          example: 500000
+        max_lat:
+          type: integer
+          example: 200
+        min_air_pressure:
+          type: integer
+          example: 180
+        min_altitute:
+          type: integer
+          example: 500000
+        min_weight:
+          type: integer
+          example: 250
+      type: object

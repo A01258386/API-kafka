@@ -16,6 +16,25 @@ import connexion
 from connexion import NoContent
 import yaml
 import logging.config
+import os
+
+if "TARGET_ENV" in os.environ and os.environ["TARGET_ENV"] == "test":
+    print("In Test Environment")
+    app_conf_file = "/config/app_conf.yml"
+    log_conf_file = "/config/log_conf.yml"
+else:
+    print("In Dev Environment")
+    app_conf_file = "app_conf.yml"
+    log_conf_file = "log_conf.yml"
+with open(app_conf_file, 'r') as f:
+    app_config = yaml.safe_load(f.read())
+    # External Logging Configuration
+with open(log_conf_file, 'r') as f:
+    log_config = yaml.safe_load(f.read())
+    logging.config.dictConfig(log_config)
+logger = logging.getLogger('basicLogger')
+logger.info("App Conf File: %s" % app_conf_file)
+logger.info("Log Conf File: %s" % log_conf_file)
 
 with open('app_conf.yml', 'r') as f:
     storage_config = yaml.safe_load(f.read())
@@ -225,7 +244,7 @@ def health():
     return {"status": "ok"}, 200
     
 app = connexion.FlaskApp(__name__, specification_dir='')
-app.add_api("openapi.yaml", strict_validation=True, validate_responses=True)
+app.add_api("openapi.yaml",base_path="/storage",  strict_validation=True, validate_responses=True)
 
 
 if __name__ == "__main__":

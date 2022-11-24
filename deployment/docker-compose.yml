@@ -74,6 +74,10 @@ services:
     ports:
       - "8080:8080"
     restart: unless-stopped
+    environment:
+      - TARGET_ENV=test
+    volumes:
+      - /home/<username>/config/receiver:/config
     depends_on:
       - kafka
     
