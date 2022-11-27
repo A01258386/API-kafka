@@ -1,8 +1,0 @@
-version: 1 
-
-services:
-  receiverStats: url:8080/health
-  storageStats: url:8080/health
-  processingStats: url:8080/health
-  auditStats: url:8080/health
-

@@ -1,6 +1,0 @@
-connexion
-swagger-ui-bundle
-APScheduler
-SQLAlchemy
-flask-cors==3.0.10
-pymysql
